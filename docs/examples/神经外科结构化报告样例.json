@@ -1,0 +1,53 @@
+﻿{
+  "report_id": "textbrats_case_0001",
+  "case_id": "brain_tumor_0001",
+  "dataset_source": "textbrats",
+  "modality": "MRI",
+  "disease_group": "brain_tumor",
+  "report_raw": "右侧额叶见占位性病变，大小约3.2cm×2.8cm，周围大片水肿，中线轻度左移，增强扫描呈不均匀强化，考虑高级别胶质瘤可能。全麻下行右额开颅肿瘤切除术。病理结果提示胶质母细胞瘤，WHO 4级。术后3个月复查MRI提示术区局部强化，考虑肿瘤复发可能。",
+  "report_structured": {
+    "primary_diagnosis": "高级别胶质瘤（疑似）",
+    "disease_stage_or_grade": "WHO 4",
+    "lesion_location": "右侧额叶",
+    "lesion_side": "right",
+    "lesion_size": "3.2cm×2.8cm",
+    "edema": "周围大片水肿",
+    "mass_effect": "中线轻度左移",
+    "enhancement_pattern": "不均匀强化",
+    "necrosis_or_hemorrhage": "",
+    "surgery_type": "右额开颅肿瘤切除术",
+    "pathology": "胶质母细胞瘤",
+    "followup_outcome": "术后3个月疑似复发"
+  },
+  "evidence_spans": {
+    "primary_diagnosis": [
+      "考虑高级别胶质瘤可能"
+    ],
+    "lesion_location": [
+      "右侧额叶见占位性病变"
+    ],
+    "lesion_size": [
+      "大小约3.2cm×2.8cm"
+    ],
+    "edema": [
+      "周围大片水肿"
+    ],
+    "mass_effect": [
+      "中线轻度左移"
+    ],
+    "enhancement_pattern": [
+      "增强扫描呈不均匀强化"
+    ],
+    "pathology": [
+      "病理结果提示胶质母细胞瘤，WHO 4级"
+    ],
+    "followup_outcome": [
+      "术后3个月复查MRI提示术区局部强化，考虑肿瘤复发可能"
+    ]
+  },
+  "extractor": {
+    "rule_version": "v0.1",
+    "llm_version": "qwen3-vl-2b",
+    "review_status": "pending_manual_review"
+  }
+}
