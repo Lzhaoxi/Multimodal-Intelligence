@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>脑出血智能诊疗数据集-医院会议投屏版-精简</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm 18mm 16mm; }
+  body { font-family: 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', sans-serif; color: #1f2d3d; line-height: 1.55; font-size: 12px; }
+  h1, h2, h3, h4 { color: #103b52; margin-top: 1.1em; margin-bottom: 0.45em; }
+  h1 { font-size: 24px; border-bottom: 2px solid #cfe4ea; padding-bottom: 8px; }
+  h2 { font-size: 18px; border-left: 5px solid #2a8ca5; padding-left: 10px; }
+  h3 { font-size: 15px; }
+  h4 { font-size: 13px; }
+  p, li { font-size: 12px; }
+  table { border-collapse: collapse; width: 100%; margin: 10px 0 14px; table-layout: fixed; }
+  th, td { border: 1px solid #cfd9df; padding: 6px 8px; vertical-align: top; word-break: break-word; }
+  th { background: #eef6f8; font-weight: 700; }
+  code { background: #f4f7f8; padding: 1px 4px; border-radius: 4px; }
+  hr { border: none; border-top: 1px solid #d7e4e8; margin: 18px 0; }
+  ul, ol { padding-left: 22px; }
+</style>
+</head>
+<body>
+<p>﻿# 脑出血智能诊疗数据集建设：</p>
+<h2 id="_1">会议讨论目标与议题</h2>
+<p>这次交流，主要希望向临床老师请教并对齐以下 4 件事：</p>
+<ol>
+<li>第一阶段做哪类脑出血。</li>
+<li>脑出血从发病到复诊的真实临床闭环是什么。</li>
+<li>在这个闭环中，哪些环节最值得优先做 AI 辅助。</li>
+<li>第一阶段数据集能收哪些数据、哪些标签，以及医院侧能提供什么协作支持。</li>
+</ol>
+<hr />
+<h2 id="1">1. 脑出血病种范围确认</h2>
+<h3 id="_2">关键临床问题咨询</h3>
+<ul>
+<li>这次的“脑出血”包括哪些病种，哪些病种较为常见，临床价值较高？</li>
+<li>第一阶段是否适合先聚焦最核心的 1 到 2 类？</li>
+<li>哪些病种临床流程差异太大，不适合第一阶段放在一起？</li>
+<li>对于建议纳入的病种，是否存在明显的数据获取难度与标注一致性问题（不同人对相同的内容的描述一致）？</li>
+</ul>
+<h3 id="_3">候选病种</h3>
+<table>
+<thead>
+<tr>
+<th>病种</th>
+<th>临床重要性</th>
+<th>数据可得性</th>
+<th>标注一致性</th>
+<th>第一阶段是否建议纳入</th>
+<th>医生备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>自发性脑内出血（ICH）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>脑室出血（IVH）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>蛛网膜下腔出血（SAH）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>硬膜下血肿（SDH）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>硬膜外血肿（EDH）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>创伤性颅内出血（TICH）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>出血性转化（HT）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_4">讨论记录</h3>
+<ul>
+<li>第一阶段优先考虑：</li>
+<li>第一阶段暂不考虑：</li>
+</ul>
+<hr />
+<h2 id="2">2. 脑出血闭环流程确认</h2>
+<p><code>发病/症状 -&gt; 急诊分诊 -&gt; 头颅CT/首诊判断 -&gt; 住院/ICU/手术决策 -&gt; 治疗与监测 -&gt; 复查影像 -&gt; 复诊/长期结局</code></p>
+<h3 id="_5">需医生评估的关键问题</h3>
+<h4 id="a">A. 发病及到院前评估</h4>
+<ul>
+<li>最常见的首发症状是什么？</li>
+<li>哪些症状提示必须尽快做头颅 CT？</li>
+<li>到院前最关键的病史信息有哪些？</li>
+</ul>
+<h4 id="b">B. 急诊及初诊流程</h4>
+<ul>
+<li>首诊时标准流程通常是什么？</li>
+<li>第一个关键影像是否通常是平扫 CT？什么时候会加 CTA/MRI？</li>
+<li>在首诊阶段，哪些CT特征是关键的判断项？</li>
+</ul>
+<h4 id="c">C. 住院及治疗管理</h4>
+<ul>
+<li>哪些 CT 特征提示保守治疗/ICU 监测/手术干预？</li>
+<li>临床上最担心哪些并发症和恶化风险？</li>
+</ul>
+<h4 id="d">D. 复查与临床结局评估</h4>
+<ul>
+<li>复查影像的典型时间点是什么？</li>
+<li>复查CT上最关键的变化指标有哪些？</li>
+</ul>
+<h3 id="_6">讨论记录</h3>
+<ul>
+<li>第一阶段更希望覆盖的流程段：首诊CT？ CT判读？ 复查CT？</li>
+</ul>
+<hr />
+<h2 id="3-ai">3. 临床流程中 AI 优先应用环节</h2>
+<h3 id="_7">关键临床问题咨询</h3>
+<ul>
+<li>哪些环节易出现误判或漏诊？</li>
+<li>哪些环节依赖资深经验或繁琐耗时？</li>
+<li>哪些环节最影响临床处理及时性？</li>
+</ul>
+<h3 id="ai">可供讨论的 AI 功能任务模块</h3>
+<ul>
+<li>通过自动化初始分诊来简化头部CT扫描解释工作流程，从而大幅缩短诊断时间，加快治疗，降低因脑出血导致的死亡率。在繁忙的创伤护理环境中，自动头部CT扫描分诊对于队列管理也有价值，或者可以在没有立即联系到放射科医生的情况下促进决策。</li>
+<li>实际应用场景：1、急诊CT分析：CT扫描完成后，AI自动识别出血类型、血肿大小、脑室受累等关键指标。2、提示临床处理优先级：AI标记“需要手术或ICU立即处理”，通知医生优先处理。3、在创伤科或夜班环境中，即使没有立即联系放射科医生，AI也可以给出初步决策建议。</li>
+<li>参考文献：Deep learning algorithms for detection of critical findings in head CT scans: a retrospective study （柳叶刀2018）</li>
+</ul>
+<h4 id="a_1">A. 放射影像理解与报告生成模块</h4>
+<p>说明：如果第一阶段是围绕 3D MLLM / 多模态报告生成路线来做，那么下面这些能力很多时候可以被理解为同一个主任务块的不同输出层次，而不一定需要拆成完全独立项目。</p>
+<table>
+<thead>
+<tr>
+<th>子任务</th>
+<th>更像独立任务，还是报告生成链上的一部分</th>
+<th>临床价值</th>
+<th>数据可得性</th>
+<th>标签一致性</th>
+<th>第一阶段优先级</th>
+<th>医生备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>出血检测</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>出血分型</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>出血定位</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>严重程度结构化评估（体积/中线移位/脑积水等）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>结构化报告生成</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>以上结构化的MLLM放射报告生成最近的NC子刊（2025）上有相关范式可以借鉴， 包含新定义的相关评测指标。 
+预计后续交付模板化的报告生成（如果需要的话）。 </p>
+<h3 id="fortenc2025nc">FORTENC（2025NC 评测标准） 结构化拆解示例</h3>
+<p>FORTE 是一种面向放射学报告生成的结构化语义评测方法。它不是直接比较整段报告是否“像”，而是先从真实报告和模型生成报告中分别抽取关键信息，再按固定维度进行对齐比较。
+这里的真实报告与模型输出，都会先被拆解为结构化语义项，主要包括四类：</p>
+<ul>
+<li><code>程度</code>：大小、范围、轻重程度</li>
+<li><code>部位</code>：解剖位置</li>
+<li><code>特征</code>：病理或影像学表现</li>
+<li><code>印象</code>：综合诊断结论</li>
+</ul>
+<h4 id="_8">示例</h4>
+<p><strong>真实报告</strong></p>
+<ul>
+<li>右侧基底节区脑内出血，约 28 mL</li>
+<li>血肿破入右侧脑室</li>
+<li>轻度中线左移</li>
+<li>考虑高血压性脑内出血</li>
+</ul>
+<p><strong>模型输出</strong></p>
+<ul>
+<li>右侧基底节区脑内出血</li>
+<li>出血量中等，伴脑室受累</li>
+<li>可见轻度中线偏移</li>
+<li>考虑高血压相关脑内出血</li>
+</ul>
+<h4 id="_9">结构化对比</h4>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>真实报告</th>
+<th>模型输出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>程度</td>
+<td>28 mL；轻度</td>
+<td>中等；轻度</td>
+</tr>
+<tr>
+<td>部位</td>
+<td>右侧基底节区；右侧脑室</td>
+<td>右侧基底节区；脑室</td>
+</tr>
+<tr>
+<td>特征</td>
+<td>脑内出血；破入脑室；中线左移</td>
+<td>脑内出血；脑室受累；中线偏移</td>
+</tr>
+<tr>
+<td>印象</td>
+<td>高血压性脑内出血</td>
+<td>高血压相关脑内出血</td>
+</tr>
+</tbody>
+</table>
+<h4 id="_10">分项指标示意</h4>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>精确率</th>
+<th>召回率</th>
+<th>F1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>程度</td>
+<td>0.50</td>
+<td>0.50</td>
+<td>0.50</td>
+</tr>
+<tr>
+<td>部位</td>
+<td>1.00</td>
+<td>1.00</td>
+<td>1.00</td>
+</tr>
+<tr>
+<td>特征</td>
+<td>1.00</td>
+<td>1.00</td>
+<td>1.00</td>
+</tr>
+<tr>
+<td>印象</td>
+<td>1.00</td>
+<td>1.00</td>
+<td>1.00</td>
+</tr>
+</tbody>
+</table>
+<p><strong>平均 FORTE F1 = 0.875</strong></p>
+<h4 id="_11">说明</h4>
+<p>这个例子想说明的是：FORTE 更关注关键临床信息是否被正确表达，而不是整段文字是否表面相似。在本例中，模型在部位、特征和印象上与真实报告较为一致，但在程度描述上仍有偏差，因此会反映在对应维度的精确率、召回率和 F1 分数上。</p>
+<h4 id="b_1">B. 临床工作流辅助模块</h4>
+<table>
+<thead>
+<tr>
+<th>子任务</th>
+<th>主要服务哪一环</th>
+<th>临床价值</th>
+<th>数据可得性</th>
+<th>标签一致性</th>
+<th>第一阶段优先级</th>
+<th>医生备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>高危病例排序 / 工作列表优先级调整</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ICU / 手术风险提示</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>临床辅助摘要</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="c_1">C. 随访及病程演化分析模块</h4>
+<table>
+<thead>
+<tr>
+<th>子任务</th>
+<th>是否适合第一阶段</th>
+<th>临床价值</th>
+<th>数据可得性</th>
+<th>标签一致性</th>
+<th>第一阶段优先级</th>
+<th>医生备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>复查变化对比</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>血肿扩张风险预测</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>预后 / 结局风险评估</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ai_1">AI 功能临床价值评估征询</h3>
+<ul>
+<li>在三类任务中，哪类 AI 功能最有临床价值、最需要优先部署？</li>
+<li>哪些功能可以作为主模块的子输出，不必独立开发？</li>
+<li>根据实际工作流程，目前医院 AI 已经能做到哪些功能？</li>
+<li>医院更希望第一阶段AI 优先提供哪些支持？</li>
+</ul>
+<h3 id="_12">讨论记录</h3>
+<ul>
+<li>第一阶段最适合作为主任务块的是：</li>
+<li>第一阶段更适合作为子输出的是：</li>
+<li>第一阶段暂时不适合做的是：</li>
+<li>目前医院 AI 已经能做到哪些功能：</li>
+</ul>
+<hr />
+<h2 id="4">4. 第一阶段数据集核心内容</h2>
+<h3 id="a_2">A. 影像数据收集</h3>
+<p>关键临床问题咨询：</p>
+<ul>
+<li>第一阶段是否只做头颅平扫 CT？</li>
+<li>CTA（造影）与MRI后续是否可选？</li>
+<li>原始 DICOM、序列信息、检查时间是否稳定可拿？</li>
+<li>复查 CT 是否能关联到同一病程？</li>
+</ul>
+<h3 id="b_2">B. 文本与病程数据</h3>
+<p>关键临床问题咨询：</p>
+<ul>
+<li>首诊病历</li>
+<li>影像报告</li>
+<li>手术记录</li>
+<li>复诊记录</li>
+<li>出院小结</li>
+<li>最终诊断</li>
+<li>关键时间戳</li>
+</ul>
+<p>这些字段里，哪些是稳定可拿的，哪些是重要但短期不现实的？</p>
+<h3 id="c_2">C. 结构化标签与量表定义</h3>
+<p>希望能和医生一起判断：为了构建“脑出血多模态微调和评测数据集”，结构化字段是否至少应该分成下面 4 层。</p>
+<h4 id="1_1">1. 病种识别层</h4>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>是否必须</th>
+<th>能否稳定拿到</th>
+<th>是否需要人工标注</th>
+<th>医生备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>出血大类主标签（ICH/IVH/SAH/SDH/EDH/混合型）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>病因分类（自发性/创伤性/动脉瘤相关/AVM相关/其他）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>出血部位</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>是否多部位出血</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>是否破入脑室</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>是否创伤相关</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>是否提示血管异常病因</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="2_1">2. 严重程度层</h4>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>是否必须</th>
+<th>能否稳定拿到</th>
+<th>是否需要人工标注</th>
+<th>医生备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>出血量 / 体积</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>是否中线移位</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>是否脑积水</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>是否血肿扩张</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>GCS</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NIHSS</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ICH score</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="3">3. 治疗过程层</h4>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>是否必须</th>
+<th>能否稳定拿到</th>
+<th>是否需要人工标注</th>
+<th>医生备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>是否手术</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>手术方式 / 介入方式</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ICU / 病房去向</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>关键治疗措施</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>是否发生重要并发症</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>复查影像时间点</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>复查变化结论</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="4_1">4. 结局层</h4>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>是否必须</th>
+<th>能否稳定拿到</th>
+<th>是否需要人工标注</th>
+<th>医生备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>出院结局</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>是否住院死亡</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>出院时功能状态</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>90 天 mRS 或其他长期结局</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>是否再次入院 / 再出血</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="5">5. 需医生评估的关键数据字段</h4>
+<ul>
+<li>上面这 4 层字段，是否能够较好覆盖一个脑出血患者的关键信息？</li>
+<li>有没有哪些关键临床信息没有被覆盖，但医生认为必须加入？</li>
+<li>有没有哪些字段只适用于部分脑出血病种，而不适合做全局统一字段？</li>
+<li>如果第一阶段必须收缩，哪一层字段最应该优先保留？</li>
+<li>哪些字段适合先从现有病历自动抽取，哪些字段必须由医生人工确认？</li>
+</ul>
+<h3 id="_13">讨论记录</h3>
+<ul>
+<li>第一阶段最小必需字段：</li>
+<li>第一阶段希望有但可以暂缓的字段：</li>
+<li>第一阶段暂不考虑的字段：</li>
+</ul>
+<hr />
+<h2 id="5_1">5. 医生参与协作机制</h2>
+<ul>
+<li>医生预期需要参与数据的主观打分与结构化抽取后的数据小批量复核</li>
+</ul>
+<h3 id="_14">协作方式与流程说明</h3>
+<table>
+<thead>
+<tr>
+<th>协作方式</th>
+<th>是否需要</th>
+<th>负责人</th>
+<th>频率</th>
+<th>医生备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>字段定义与规则制定</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>结构化抽取结果复核</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>影像/标签纠错</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>多模型输出排序打分</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>可用性主观评分</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>失败案例复盘</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
