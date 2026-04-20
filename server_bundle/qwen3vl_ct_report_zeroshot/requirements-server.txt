@@ -1,0 +1,6 @@
+accelerate
+pillow
+qwen-vl-utils>=0.0.14
+sentencepiece
+# Official Qwen3-VL docs recommend transformers >= 4.57.0
+transformers>=4.57.0

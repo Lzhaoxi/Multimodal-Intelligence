@@ -1,0 +1,14 @@
+﻿[
+  {
+    "sample_id": "保守治疗__刘顶学 1447841 外伤__study2__62041493__20260327",
+    "variant": "thin",
+    "type": "missing_variant_series",
+    "message": "No thin series found under study."
+  },
+  {
+    "sample_id": "手术治疗__刘灵芝 1447338 基底节出血__study1__62035985__20260317",
+    "variant": "thin",
+    "type": "missing_variant_series",
+    "message": "No thin series found under study."
+  }
+]
