@@ -1,0 +1,2330 @@
+﻿{
+  "sample_id": "手术治疗__靖博元 1392646 外伤__study1__61394372__20250608",
+  "variant": "thin_headfix_v1",
+  "treatment_type": "手术治疗",
+  "case_name": "靖博元 1392646 外伤",
+  "patient_name": "靖博元",
+  "image_id": "61394372",
+  "study_date": "20250608",
+  "study_index": "study1",
+  "report_label": "入院CT报告",
+  "window": {
+    "mode": "brain",
+    "center": 37.0,
+    "width": 82.0
+  },
+  "selected_series": {
+    "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_303__CT__med_iDose_4__1_63885014283744813900002_4914956333.nii.gz",
+    "series_instance_uid": "1.3.46.670589.33.1.63885014283744813900002.4914956333963696618",
+    "series_number": "303",
+    "series_description": "med, iDose (4)",
+    "size": [
+      512,
+      512,
+      159
+    ],
+    "spacing": [
+      0.48828125,
+      0.48828125,
+      1.0
+    ],
+    "kind": "thin",
+    "is_head": true,
+    "head_reasons": [
+      "tag:ct head",
+      "tag:head",
+      "tag:head",
+      "tag:brain"
+    ],
+    "reject_reasons": [],
+    "dicom_tags": {
+      "Modality": "CT",
+      "BodyPartExamined": "BRAIN",
+      "StudyDescription": "CT Head Trauma",
+      "ProtocolName": "001 H-TRAUMA /Head",
+      "SeriesDescription": "med, iDose (4)",
+      "RequestedProcedureDescription": "",
+      "PerformedProcedureStepDescription": "",
+      "Rows": "512",
+      "Columns": "512",
+      "PixelSpacing": "[0.48828125, 0.48828125]",
+      "SliceThickness": "1"
+    }
+  },
+  "candidate_summaries": [
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1001__CT__Bone_iDose_3__1_63885014881908305200001_4657813290.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014881908305200001.4657813290634584510",
+      "series_number": "1001",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        512,
+        512,
+        133
+      ],
+      "spacing": [
+        0.384765625,
+        0.384765625,
+        4.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01T,L- Spine 140kv /Spine",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.384765625, 0.384765625]",
+        "SliceThickness": "4"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1002__CT__Bone_iDose_3__1_63885014881909307600001_5668881334.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014881909307600001.5668881334439687050",
+      "series_number": "1002",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        512,
+        1396,
+        62
+      ],
+      "spacing": [
+        0.3810172,
+        0.3810172,
+        3.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01T,L- Spine 140kv /Spine",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "1396",
+        "Columns": "512",
+        "PixelSpacing": "[0.3810172, 0.3810172]",
+        "SliceThickness": "3"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1003__CT__Bone_iDose_3__1_63885014881909307600003_4991125388.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014881909307600003.4991125388618219291",
+      "series_number": "1003",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        512,
+        1396,
+        65
+      ],
+      "spacing": [
+        0.3810172,
+        0.3810172,
+        2.9999999503494372
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01T,L- Spine 140kv /Spine",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "1396",
+        "Columns": "512",
+        "PixelSpacing": "[0.3810172, 0.3810172]",
+        "SliceThickness": "3"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1004__CT__bone_iDose_5__1_63885014881909307600005_5290316552.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014881909307600005.5290316552762101148",
+      "series_number": "1004",
+      "series_description": "bone, iDose (5)",
+      "size": [
+        512,
+        512,
+        759
+      ],
+      "spacing": [
+        0.384765625,
+        0.384765625,
+        0.6999999999999998
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01T,L- Spine 140kv /Spine",
+        "SeriesDescription": "bone, iDose (5)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.384765625, 0.384765625]",
+        "SliceThickness": "0.9"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1005__CT__soft_iDose_4__1_63885014881909307600007_5099341487.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014881909307600007.5099341487992313041",
+      "series_number": "1005",
+      "series_description": "soft, iDose (4)",
+      "size": [
+        512,
+        512,
+        759
+      ],
+      "spacing": [
+        0.384765625,
+        0.384765625,
+        0.6999999999999998
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01T,L- Spine 140kv /Spine",
+        "SeriesDescription": "soft, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.384765625, 0.384765625]",
+        "SliceThickness": "0.9"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1101__CT__Bone_iDose_3__1_63885014847743902900001_4721640970.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014847743902900001.4721640970013634608",
+      "series_number": "1101",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        512,
+        512,
+        63
+      ],
+      "spacing": [
+        0.3515625,
+        0.3515625,
+        3.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "00 C-Spine /Spine",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.3515625, 0.3515625]",
+        "SliceThickness": "3"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1102__CT__Bone_iDose_3__1_63885014847743902900003_5050612521.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014847743902900003.5050612521008910717",
+      "series_number": "1102",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        512,
+        538,
+        60
+      ],
+      "spacing": [
+        0.3515625,
+        0.3515625,
+        2.9999999999999933
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "00 C-Spine /Spine",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "538",
+        "Columns": "512",
+        "PixelSpacing": "[0.3515625, 0.3515625]",
+        "SliceThickness": "3"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1103__CT__Bone_iDose_3__1_63885014847743902900005_5048572700.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014847743902900005.5048572700828588392",
+      "series_number": "1103",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        512,
+        538,
+        60
+      ],
+      "spacing": [
+        0.3515625,
+        0.3515625,
+        2.9999999459001696
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "00 C-Spine /Spine",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "538",
+        "Columns": "512",
+        "PixelSpacing": "[0.3515625, 0.3515625]",
+        "SliceThickness": "3"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1104__CT__bone_iDose_4__1_63885014847743902900007_4900585282.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014847743902900007.4900585282544593808",
+      "series_number": "1104",
+      "series_description": "bone, iDose (4)",
+      "size": [
+        512,
+        512,
+        269
+      ],
+      "spacing": [
+        0.3515625,
+        0.3515625,
+        0.7
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "00 C-Spine /Spine",
+        "SeriesDescription": "bone, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.3515625, 0.3515625]",
+        "SliceThickness": "0.9"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1105__CT__soft_iDose_4__1_63885014847743902900009_4946256520.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014847743902900009.4946256520781730701",
+      "series_number": "1105",
+      "series_description": "soft, iDose (4)",
+      "size": [
+        512,
+        512,
+        269
+      ],
+      "spacing": [
+        0.3515625,
+        0.3515625,
+        0.7
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "00 C-Spine /Spine",
+        "SeriesDescription": "soft, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.3515625, 0.3515625]",
+        "SliceThickness": "0.9"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1301__CT__Bone_iDose_3__1_63885015343375822100001_4970116848.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885015343375822100001.4970116848674581782",
+      "series_number": "1301",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        768,
+        768,
+        95
+      ],
+      "spacing": [
+        0.546875,
+        0.546875,
+        10.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01 CHANG GU /Orthoped",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "768",
+        "Columns": "768",
+        "PixelSpacing": "[0.546875, 0.546875]",
+        "SliceThickness": "10"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1302__CT__Bone_iDose_3__1_63885015343375822100002_5721817379.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885015343375822100002.5721817379667445506",
+      "series_number": "1302",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        932,
+        2110,
+        99
+      ],
+      "spacing": [
+        0.4506438,
+        0.4506438,
+        3.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "KNEE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01 CHANG GU /Orthoped",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "2110",
+        "Columns": "932",
+        "PixelSpacing": "[0.4506438, 0.4506438]",
+        "SliceThickness": "3"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1303__CT__Bone_iDose_3__1_63885015343375822100004_4690537296.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885015343375822100004.4690537296509451443",
+      "series_number": "1303",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        926,
+        2112,
+        139
+      ],
+      "spacing": [
+        0.450324,
+        0.450324,
+        3.000000016342384
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "KNEE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01 CHANG GU /Orthoped",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "2112",
+        "Columns": "926",
+        "PixelSpacing": "[0.450324, 0.450324]",
+        "SliceThickness": "3"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1304__CT__Bone_iDose_4__1_63885015343375822100006_5230932780.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885015343375822100006.5230932780095355412",
+      "series_number": "1304",
+      "series_description": "Bone, iDose (4)",
+      "size": [
+        768,
+        768,
+        2110
+      ],
+      "spacing": [
+        0.546875,
+        0.546875,
+        0.44999999999999996
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "KNEE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01 CHANG GU /Orthoped",
+        "SeriesDescription": "Bone, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "768",
+        "Columns": "768",
+        "PixelSpacing": "[0.546875, 0.546875]",
+        "SliceThickness": "0.9"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1305__CT__med_iDose_5__1_63885015343375822100007_4985207168.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885015343375822100007.4985207168138261157",
+      "series_number": "1305",
+      "series_description": "med, iDose (5)",
+      "size": [
+        768,
+        768,
+        1055
+      ],
+      "spacing": [
+        0.546875,
+        0.546875,
+        0.8999999999999999
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "KNEE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01 CHANG GU /Orthoped",
+        "SeriesDescription": "med, iDose (5)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "768",
+        "Columns": "768",
+        "PixelSpacing": "[0.546875, 0.546875]",
+        "SliceThickness": "0.9"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1306__CT__Batch_1__1_63885018560363886800001_4678641003.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885018560363886800001.4678641003874145179",
+      "series_number": "1306",
+      "series_description": "Batch 1",
+      "size": [
+        714,
+        934,
+        20
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:batch"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "",
+        "SeriesDescription": "Batch 1",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "934",
+        "Columns": "714",
+        "PixelSpacing": "",
+        "SliceThickness": ""
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1307__CT__Batch_1__1_63885018705277438400001_5014261539.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885018705277438400001.5014261539977004607",
+      "series_number": "1307",
+      "series_description": "Batch 1",
+      "size": [
+        714,
+        934,
+        20
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:batch"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "",
+        "SeriesDescription": "Batch 1",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "934",
+        "Columns": "714",
+        "PixelSpacing": "",
+        "SliceThickness": ""
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1308__CT__Batch_1__1_63885018780433046100001_5133828119.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885018780433046100001.5133828119125410993",
+      "series_number": "1308",
+      "series_description": "Batch 1",
+      "size": [
+        714,
+        934,
+        20
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:batch"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "",
+        "SeriesDescription": "Batch 1",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "934",
+        "Columns": "714",
+        "PixelSpacing": "",
+        "SliceThickness": ""
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1309__CT__Batch_1__1_63885018855426857400001_5005099151.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885018855426857400001.5005099151179181755",
+      "series_number": "1309",
+      "series_description": "Batch 1",
+      "size": [
+        714,
+        934,
+        20
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:batch"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "",
+        "SeriesDescription": "Batch 1",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "934",
+        "Columns": "714",
+        "PixelSpacing": "",
+        "SliceThickness": ""
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1501__CT__Bone_iDose_3__1_63885015724003734600001_5390359356.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885015724003734600001.5390359356205961796",
+      "series_number": "1501",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        768,
+        768,
+        123
+      ],
+      "spacing": [
+        0.4479167,
+        0.4479167,
+        3.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "KNEE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "00 Knee /Orthoped",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "768",
+        "Columns": "768",
+        "PixelSpacing": "[0.4479167, 0.4479167]",
+        "SliceThickness": "3"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1502__CT__Bone_iDose_3__1_63885015724004737600001_5089253135.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885015724004737600001.5089253135494936780",
+      "series_number": "1502",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        1028,
+        1100,
+        109
+      ],
+      "spacing": [
+        0.3353045,
+        0.3353045,
+        3.0000000000000027
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "KNEE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "00 Knee /Orthoped",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "1100",
+        "Columns": "1028",
+        "PixelSpacing": "[0.3353045, 0.3353045]",
+        "SliceThickness": "3"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1503__CT__Bone_iDose_3__1_63885015724004737600003_4742627751.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885015724004737600003.4742627751975028056",
+      "series_number": "1503",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        1028,
+        1100,
+        109
+      ],
+      "spacing": [
+        0.3353045,
+        0.3353045,
+        3.000000050552241
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "KNEE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "00 Knee /Orthoped",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "1100",
+        "Columns": "1028",
+        "PixelSpacing": "[0.3353045, 0.3353045]",
+        "SliceThickness": "3"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1504__CT__med_iDose_5__1_63885015724004737600005_5643244458.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885015724004737600005.5643244458260048834",
+      "series_number": "1504",
+      "series_description": "med, iDose (5)",
+      "size": [
+        768,
+        768,
+        737
+      ],
+      "spacing": [
+        0.4479167,
+        0.4479167,
+        0.5
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "KNEE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "00 Knee /Orthoped",
+        "SeriesDescription": "med, iDose (5)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "768",
+        "Columns": "768",
+        "PixelSpacing": "[0.4479167, 0.4479167]",
+        "SliceThickness": "0.67"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1505__CT__Bone_iDose_4__1_63885015724004737600006_4986096976.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885015724004737600006.4986096976147254109",
+      "series_number": "1505",
+      "series_description": "Bone, iDose (4)",
+      "size": [
+        768,
+        768,
+        737
+      ],
+      "spacing": [
+        0.4479167,
+        0.4479167,
+        0.5
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "KNEE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "00 Knee /Orthoped",
+        "SeriesDescription": "Bone, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "768",
+        "Columns": "768",
+        "PixelSpacing": "[0.4479167, 0.4479167]",
+        "SliceThickness": "0.67"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1506__CT__Batch_1__1_63885017777338453500001_4813611992.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885017777338453500001.4813611992173760288",
+      "series_number": "1506",
+      "series_description": "Batch 1",
+      "size": [
+        714,
+        934,
+        20
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:batch"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "",
+        "SeriesDescription": "Batch 1",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "934",
+        "Columns": "714",
+        "PixelSpacing": "",
+        "SliceThickness": ""
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_1507__CT__Batch_1__1_63885017818559149400001_5582912813.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885017818559149400001.5582912813661138089",
+      "series_number": "1507",
+      "series_description": "Batch 1",
+      "size": [
+        714,
+        934,
+        20
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:batch"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "",
+        "SeriesDescription": "Batch 1",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "934",
+        "Columns": "714",
+        "PixelSpacing": "",
+        "SliceThickness": ""
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_301__CT__med_iDose_1__1_63885014283743811000001_5588022489.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014283743811000001.5588022489751492070",
+      "series_number": "301",
+      "series_description": "med, iDose (1)",
+      "size": [
+        512,
+        512,
+        32
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "001 H-TRAUMA /Head",
+        "SeriesDescription": "med, iDose (1)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_301__CT__Tracker_Graph__1_63885016018925560500001_5318201342__shape_394x508_part1.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885016018925560500001.5318201342907098341",
+      "series_number": "301",
+      "series_description": "Tracker Graph",
+      "size": [
+        508,
+        394,
+        1
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "no_head_evidence"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CTA Mesenteric Vessel",
+        "ProtocolName": "",
+        "SeriesDescription": "Tracker Graph",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "",
+        "SliceThickness": ""
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_301__CT__Tracker_Graph__1_63885016018925560500001_5318201342__shape_512x512_part2.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885016018925560500001.5318201342907098341",
+      "series_number": "301",
+      "series_description": "Tracker Graph",
+      "size": [
+        512,
+        512,
+        1
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "no_head_evidence"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CTA Mesenteric Vessel",
+        "ProtocolName": "",
+        "SeriesDescription": "Tracker Graph",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "",
+        "SliceThickness": ""
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_302__CT__bone_iDose_1__1_63885014283744813900001_5682419947.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014283744813900001.5682419947158069494",
+      "series_number": "302",
+      "series_description": "bone, iDose (1)",
+      "size": [
+        512,
+        512,
+        31
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "001 H-TRAUMA /Head",
+        "SeriesDescription": "bone, iDose (1)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_303__CT__med_iDose_4__1_63885014283744813900002_4914956333.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014283744813900002.4914956333963696618",
+      "series_number": "303",
+      "series_description": "med, iDose (4)",
+      "size": [
+        512,
+        512,
+        159
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "001 H-TRAUMA /Head",
+        "SeriesDescription": "med, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "1"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_304__CT__bone_iDose_4__1_63885014283744813900003_5679141736.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014283744813900003.5679141736943108932",
+      "series_number": "304",
+      "series_description": "bone, iDose (4)",
+      "size": [
+        512,
+        512,
+        159
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "001 H-TRAUMA /Head",
+        "SeriesDescription": "bone, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "1"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_401__CT__A_iDose_3__1_63885016030147892200001_5522270227.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885016030147892200001.5522270227644438003",
+      "series_number": "401",
+      "series_description": "A, iDose (3)",
+      "size": [
+        512,
+        512,
+        109
+      ],
+      "spacing": [
+        0.765625,
+        0.765625,
+        4.999999999999999
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "no_head_evidence"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "AORTA",
+        "StudyDescription": "CTA Mesenteric Vessel",
+        "ProtocolName": "05 CHANG XI MO CTA /CTA",
+        "SeriesDescription": "A, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.765625, 0.765625]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_401__CT__Bone_iDose_3__1_63885014337958484900001_4859233172.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014337958484900001.4859233172463425325",
+      "series_number": "401",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        512,
+        512,
+        32
+      ],
+      "spacing": [
+        0.3515625,
+        0.3515625,
+        2.5
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "NOSE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "02 Orbit  /Head",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.3515625, 0.3515625]",
+        "SliceThickness": "2.5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_402__CT__A_iDose_4__1_63885016030147892200002_5162754791.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885016030147892200002.5162754791533312326",
+      "series_number": "402",
+      "series_description": "A, iDose (4)",
+      "size": [
+        512,
+        512,
+        544
+      ],
+      "spacing": [
+        0.765625,
+        0.765625,
+        0.9999999999999998
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "no_head_evidence"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "AORTA",
+        "StudyDescription": "CTA Mesenteric Vessel",
+        "ProtocolName": "05 CHANG XI MO CTA /CTA",
+        "SeriesDescription": "A, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.765625, 0.765625]",
+        "SliceThickness": "1.5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_402__CT__med_iDose_3__1_63885014337959487600001_5552845624.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014337959487600001.5552845624080923236",
+      "series_number": "402",
+      "series_description": "med, iDose (3)",
+      "size": [
+        512,
+        512,
+        32
+      ],
+      "spacing": [
+        0.3515625,
+        0.3515625,
+        2.5
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "NOSE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "02 Orbit  /Head",
+        "SeriesDescription": "med, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.3515625, 0.3515625]",
+        "SliceThickness": "2.5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_403__CT__3D_Saved_State__2_9_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.2811342384.132404.1749447258.2.9.1",
+      "series_number": "403",
+      "series_description": "3D Saved State -",
+      "size": [
+        1017,
+        1017,
+        1
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "no_head_evidence"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "AORTA",
+        "StudyDescription": "CTA Mesenteric Vessel",
+        "ProtocolName": "05 CHANG XI MO CTA /CTA",
+        "SeriesDescription": "3D Saved State -",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "1017",
+        "Columns": "1017",
+        "PixelSpacing": "",
+        "SliceThickness": "1.5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_403__CT__Bone_iDose_3__1_63885014337959487600002_4650676700.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014337959487600002.4650676700823788429",
+      "series_number": "403",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        768,
+        340,
+        72
+      ],
+      "spacing": [
+        0.2345,
+        0.2345,
+        2.500000003678423
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "NOSE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "02 Orbit  /Head",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "340",
+        "Columns": "768",
+        "PixelSpacing": "[0.2345, 0.2345]",
+        "SliceThickness": "2.5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_404__CT__med_iDose_3__1_63885014337959487600004_5568843876.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014337959487600004.5568843876916835691",
+      "series_number": "404",
+      "series_description": "med, iDose (3)",
+      "size": [
+        536,
+        238,
+        65
+      ],
+      "spacing": [
+        0.3358209,
+        0.3358209,
+        2.499999999999993
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "NOSE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "02 Orbit  /Head",
+        "SeriesDescription": "med, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "238",
+        "Columns": "536",
+        "PixelSpacing": "[0.3358209, 0.3358209]",
+        "SliceThickness": "2.5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_404__CT__Processed_Images__4_5_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.2811342384.132404.1749447260.4.5.1",
+      "series_number": "404",
+      "series_description": "Processed Images",
+      "size": [
+        1017,
+        1017,
+        13
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "no_head_evidence"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "AORTA",
+        "StudyDescription": "CTA Mesenteric Vessel",
+        "ProtocolName": "05 CHANG XI MO CTA /CTA",
+        "SeriesDescription": "Processed Images",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "1017",
+        "Columns": "1017",
+        "PixelSpacing": "",
+        "SliceThickness": "1.5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_405__CT__med_iDose_3__1_63885014337959487600006_5522579159.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014337959487600006.5522579159217401348",
+      "series_number": "405",
+      "series_description": "med, iDose (3)",
+      "size": [
+        512,
+        512,
+        119
+      ],
+      "spacing": [
+        0.3515625,
+        0.3515625,
+        0.67
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "NOSE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "02 Orbit  /Head",
+        "SeriesDescription": "med, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.3515625, 0.3515625]",
+        "SliceThickness": "0.67"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_405__CT__Processed_Images__18_7_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.2811342384.132404.1749447267.18.7.1",
+      "series_number": "405",
+      "series_description": "Processed Images",
+      "size": [
+        1017,
+        1017,
+        13
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "no_head_evidence"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "AORTA",
+        "StudyDescription": "CTA Mesenteric Vessel",
+        "ProtocolName": "05 CHANG XI MO CTA /CTA",
+        "SeriesDescription": "Processed Images",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "1017",
+        "Columns": "1017",
+        "PixelSpacing": "",
+        "SliceThickness": "1.5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_406__CT__Bone_iDose_4__1_63885014337959487600007_4642257084.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014337959487600007.4642257084372072044",
+      "series_number": "406",
+      "series_description": "Bone, iDose (4)",
+      "size": [
+        512,
+        512,
+        119
+      ],
+      "spacing": [
+        0.3515625,
+        0.3515625,
+        0.67
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "NOSE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "02 Orbit  /Head",
+        "SeriesDescription": "Bone, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.3515625, 0.3515625]",
+        "SliceThickness": "0.67"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_406__CT__Processed_Images__32_4_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.2811342384.132404.1749447268.32.4.1",
+      "series_number": "406",
+      "series_description": "Processed Images",
+      "size": [
+        641,
+        641,
+        4
+      ],
+      "spacing": [
+        0.8690419793,
+        0.8690419793,
+        114.49232600261676
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "no_head_evidence"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "AORTA",
+        "StudyDescription": "CTA Mesenteric Vessel",
+        "ProtocolName": "05 CHANG XI MO CTA /CTA",
+        "SeriesDescription": "Processed Images",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "641",
+        "Columns": "641",
+        "PixelSpacing": "[0.8690419793, 0.8690419793]",
+        "SliceThickness": "91.109375"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_501__CT__D1_iDose_3__1_63885016101147200700001_5756495446.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885016101147200700001.5756495446624990246",
+      "series_number": "501",
+      "series_description": "D1, iDose (3)",
+      "size": [
+        512,
+        512,
+        109
+      ],
+      "spacing": [
+        0.765625,
+        0.765625,
+        4.999999999999999
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "no_head_evidence"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "AORTA",
+        "StudyDescription": "CTA Mesenteric Vessel",
+        "ProtocolName": "05 CHANG XI MO CTA /CTA",
+        "SeriesDescription": "D1, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.765625, 0.765625]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_502__CT__D1_iDose_4__1_63885016101147200700003_5528859224.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885016101147200700003.5528859224466956215",
+      "series_number": "502",
+      "series_description": "D1, iDose (4)",
+      "size": [
+        512,
+        512,
+        544
+      ],
+      "spacing": [
+        0.765625,
+        0.765625,
+        0.9999999999999998
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "no_head_evidence"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "AORTA",
+        "StudyDescription": "CTA Mesenteric Vessel",
+        "ProtocolName": "05 CHANG XI MO CTA /CTA",
+        "SeriesDescription": "D1, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.765625, 0.765625]",
+        "SliceThickness": "1.5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_601__CT__Bone_iDose_3__1_63885014473559779100001_5082526660.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014473559779100001.5082526660893611398",
+      "series_number": "601",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        1024,
+        1024,
+        80
+      ],
+      "spacing": [
+        0.1953125,
+        0.1953125,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "IAC",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01 IAC /Ear",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "1024",
+        "Columns": "1024",
+        "PixelSpacing": "[0.1953125, 0.1953125]",
+        "SliceThickness": "1"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_602__CT__Bone_iDose_3__1_63885014473559779100003_4768500507.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014473559779100003.4768500507007316421",
+      "series_number": "602",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        1024,
+        410,
+        179
+      ],
+      "spacing": [
+        0.1953125,
+        0.1953125,
+        0.9999999999999971
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "IAC",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01 IAC /Ear",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "410",
+        "Columns": "1024",
+        "PixelSpacing": "[0.1953125, 0.1953125]",
+        "SliceThickness": "1"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_603__CT__iDose_3__1_63885014473559779100005_5537848282.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014473559779100005.5537848282505922905",
+      "series_number": "603",
+      "series_description": "iDose (3)",
+      "size": [
+        1024,
+        1024,
+        120
+      ],
+      "spacing": [
+        0.1953125,
+        0.1953125,
+        0.6699999999999999
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "IAC",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01 IAC /Ear",
+        "SeriesDescription": "iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "1024",
+        "Columns": "1024",
+        "PixelSpacing": "[0.1953125, 0.1953125]",
+        "SliceThickness": "0.67"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_604__CT__iDose_3__1_63885014473559779100006_5059794285.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014473559779100006.5059794285811675505",
+      "series_number": "604",
+      "series_description": "iDose (3)",
+      "size": [
+        512,
+        512,
+        120
+      ],
+      "spacing": [
+        0.390625,
+        0.390625,
+        0.6699999999999999
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "IAC",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01 IAC /Ear",
+        "SeriesDescription": "iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.390625, 0.390625]",
+        "SliceThickness": "0.67"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_605__CT__Batch_1__1_63885014840362788600001_5091535657.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014840362788600001.5091535657173438332",
+      "series_number": "605",
+      "series_description": "Batch 1",
+      "size": [
+        448,
+        582,
+        79
+      ],
+      "spacing": [
+        0.4467358,
+        0.4467358,
+        0.9999998155062314
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:batch"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "IAC",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01 IAC /Ear",
+        "SeriesDescription": "Batch 1",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "582",
+        "Columns": "448",
+        "PixelSpacing": "[0.4467358, 0.4467358]",
+        "SliceThickness": "1"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_700__CT__no_desc__1_63885014525062382200001_4692424145.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014525062382200001.4692424145095094220",
+      "series_number": "700",
+      "series_description": "",
+      "size": [
+        512,
+        995,
+        1
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        1.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01Chest  /Thorax",
+        "SeriesDescription": "",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "995",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "0.625"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_801__CT__lung_iDose_3__1_63885014876049662700001_5052289363.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014876049662700001.5052289363203910831",
+      "series_number": "801",
+      "series_description": "lung, iDose (3)",
+      "size": [
+        512,
+        512,
+        64
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax",
+        "exclude:lung"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01Chest  /Thorax",
+        "SeriesDescription": "lung, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_802__CT__med_iDose_3__1_63885014876049662700003_5321384381.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014876049662700003.5321384381349200019",
+      "series_number": "802",
+      "series_description": "med, iDose (3)",
+      "size": [
+        512,
+        512,
+        64
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01Chest  /Thorax",
+        "SeriesDescription": "med, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_803__CT__med_iDose_4__1_63885014876049662700005_5285700595.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014876049662700005.5285700595663925576",
+      "series_number": "803",
+      "series_description": "med, iDose (4)",
+      "size": [
+        512,
+        512,
+        320
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "01Chest  /Thorax",
+        "SeriesDescription": "med, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "1"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_901__CT__Bone_iDose_3__1_63885014878726824800001_5364427180.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014878726824800001.5364427180913524281",
+      "series_number": "901",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        512,
+        512,
+        52
+      ],
+      "spacing": [
+        0.78125,
+        0.78125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "03 GU PEN  140kv /Spine",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.78125, 0.78125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_902__CT__Bone_iDose_3__1_63885014878726824800003_5208265054.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014878726824800003.5208265054573022978",
+      "series_number": "902",
+      "series_description": "Bone, iDose (3)",
+      "size": [
+        888,
+        576,
+        75
+      ],
+      "spacing": [
+        0.4504774,
+        0.4504774,
+        4.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "03 GU PEN  140kv /Spine",
+        "SeriesDescription": "Bone, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "576",
+        "Columns": "888",
+        "PixelSpacing": "[0.4504774, 0.4504774]",
+        "SliceThickness": "4"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_903__CT__med_iDose_5__1_63885014878726824800005_4766125503.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014878726824800005.4766125503419946524",
+      "series_number": "903",
+      "series_description": "med, iDose (5)",
+      "size": [
+        512,
+        512,
+        370
+      ],
+      "spacing": [
+        0.78125,
+        0.78125,
+        0.7000000000000002
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "03 GU PEN  140kv /Spine",
+        "SeriesDescription": "med, iDose (5)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.78125, 0.78125]",
+        "SliceThickness": "0.9"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_904__CT__bone_iDose_5__1_63885014878726824800007_5132339557.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885014878726824800007.5132339557804434431",
+      "series_number": "904",
+      "series_description": "bone, iDose (5)",
+      "size": [
+        512,
+        512,
+        370
+      ],
+      "spacing": [
+        0.78125,
+        0.78125,
+        0.7000000000000002
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:spine"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "LSPINE",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "03 GU PEN  140kv /Spine",
+        "SeriesDescription": "bone, iDose (5)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.78125, 0.78125]",
+        "SliceThickness": "0.9"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_905__CT__Batch_1__1_63885015246068831400001_4957915337.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885015246068831400001.4957915337027553710",
+      "series_number": "905",
+      "series_description": "Batch 1",
+      "size": [
+        714,
+        934,
+        20
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:batch"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "",
+        "SeriesDescription": "Batch 1",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "934",
+        "Columns": "714",
+        "PixelSpacing": "",
+        "SliceThickness": ""
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\ct_study\\series_906__CT__Batch_2__1_63885015252644605900001_4717709168.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63885015252644605900001.4717709168496717635",
+      "series_number": "906",
+      "series_description": "Batch 2",
+      "size": [
+        714,
+        934,
+        20
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:batch"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head Trauma",
+        "ProtocolName": "",
+        "SeriesDescription": "Batch 2",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "934",
+        "Columns": "714",
+        "PixelSpacing": "",
+        "SliceThickness": ""
+      }
+    }
+  ],
+  "render": {
+    "plane": "axial",
+    "frame_count": 30,
+    "output_size": [
+      512,
+      512
+    ],
+    "sampled_slice_indices": [
+      0,
+      5,
+      11,
+      16,
+      22,
+      27,
+      33,
+      38,
+      44,
+      49,
+      54,
+      60,
+      65,
+      71,
+      76,
+      82,
+      87,
+      93,
+      98,
+      104,
+      109,
+      114,
+      120,
+      125,
+      131,
+      136,
+      142,
+      147,
+      153,
+      158
+    ],
+    "volume_shape": [
+      512,
+      512,
+      159
+    ],
+    "frame_paths": [
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_000.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_001.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_002.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_003.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_004.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_005.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_006.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_007.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_008.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_009.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_010.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_011.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_012.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_013.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_014.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_015.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_016.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_017.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_018.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_019.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_020.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_021.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_022.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_023.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_024.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_025.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_026.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_027.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_028.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\frames\\frame_029.png"
+    ],
+    "report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\report\\report.png",
+    "preview_grid": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\preview_grid.png"
+  },
+  "source": {
+    "gt_pair_sample_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608",
+    "source_report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__靖博元 1392646 外伤__study1__61394372__20250608\\report\\report.png",
+    "source_case_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\手术治疗\\靖博元 1392646 外伤"
+  }
+}

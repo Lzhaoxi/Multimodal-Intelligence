@@ -1,0 +1,105 @@
+﻿{
+  "thick": [],
+  "thin": [
+    {
+      "variant": "thin",
+      "sample_id": "保守治疗__刘顶学 1447841 外伤__study2__62041493__20260327",
+      "study_index": "study2",
+      "image_id": "62041493",
+      "study_date": "20260327",
+      "candidate_count": 1,
+      "head_candidate_count": 1,
+      "type": "missing_head_variant_series",
+      "message": "No head thin series found under study.",
+      "candidate_summaries": [
+        {
+          "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__刘顶学 1447841 外伤__study2__62041493__20260327\\ct_study\\series_1__CT__head__1992_1774580709_804183.nii.gz",
+          "series_instance_uid": "1.2.156.91120111.2.30.3.8323329.1992.1774580709.804183",
+          "series_number": "1",
+          "series_description": "head",
+          "size": [
+            512,
+            512,
+            36
+          ],
+          "spacing": [
+            0.488281,
+            0.488281,
+            5.0
+          ],
+          "kind": "thick",
+          "is_head": true,
+          "head_reasons": [
+            "tag:ct head",
+            "tag:head",
+            "tag:head"
+          ],
+          "reject_reasons": [],
+          "dicom_tags": {
+            "Modality": "CT",
+            "BodyPartExamined": "",
+            "StudyDescription": "CT Head",
+            "ProtocolName": "head",
+            "SeriesDescription": "head",
+            "RequestedProcedureDescription": "",
+            "PerformedProcedureStepDescription": "",
+            "Rows": "512",
+            "Columns": "512",
+            "PixelSpacing": "[0.488281, 0.488281]",
+            "SliceThickness": "5"
+          }
+        }
+      ]
+    },
+    {
+      "variant": "thin",
+      "sample_id": "手术治疗__刘灵芝 1447338 基底节出血__study1__62035985__20260317",
+      "study_index": "study1",
+      "image_id": "62035985",
+      "study_date": "20260317",
+      "candidate_count": 1,
+      "head_candidate_count": 1,
+      "type": "missing_head_variant_series",
+      "message": "No head thin series found under study.",
+      "candidate_summaries": [
+        {
+          "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\手术治疗__刘灵芝 1447338 基底节出血__study1__62035985__20260317\\ct_study\\series_1__CT__head__2082_1773739649_412297.nii.gz",
+          "series_instance_uid": "1.2.156.91120111.2.30.3.8323329.2082.1773739649.412297",
+          "series_number": "1",
+          "series_description": "head",
+          "size": [
+            512,
+            512,
+            36
+          ],
+          "spacing": [
+            0.488281,
+            0.488281,
+            5.0
+          ],
+          "kind": "thick",
+          "is_head": true,
+          "head_reasons": [
+            "tag:ct head",
+            "tag:head",
+            "tag:head"
+          ],
+          "reject_reasons": [],
+          "dicom_tags": {
+            "Modality": "CT",
+            "BodyPartExamined": "",
+            "StudyDescription": "CT Head",
+            "ProtocolName": "head",
+            "SeriesDescription": "head",
+            "RequestedProcedureDescription": "",
+            "PerformedProcedureStepDescription": "",
+            "Rows": "512",
+            "Columns": "512",
+            "PixelSpacing": "[0.488281, 0.488281]",
+            "SliceThickness": "5"
+          }
+        }
+      ]
+    }
+  ]
+}

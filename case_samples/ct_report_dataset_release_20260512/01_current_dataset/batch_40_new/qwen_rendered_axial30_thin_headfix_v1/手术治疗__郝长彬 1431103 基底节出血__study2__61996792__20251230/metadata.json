@@ -1,0 +1,578 @@
+﻿{
+  "sample_id": "手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230",
+  "variant": "thin_headfix_v1",
+  "treatment_type": "手术治疗",
+  "case_name": "郝长彬 1431103 基底节出血",
+  "patient_name": "郝长彬",
+  "image_id": "61996792",
+  "study_date": "20251230",
+  "study_index": "study2",
+  "report_label": "出院CT报告",
+  "window": {
+    "mode": "brain",
+    "center": 37.0,
+    "width": 82.0
+  },
+  "selected_series": {
+    "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\ct_study\\series_6__CT__Recon_2_5mm_stnd__1766878626_210_6.nii.gz",
+    "series_instance_uid": "1.2.840.113619.2.428.3.168431890.984.1766878626.210.6",
+    "series_number": "6",
+    "series_description": "Recon 2: 5mm stnd",
+    "size": [
+      512,
+      512,
+      125
+    ],
+    "spacing": [
+      0.488281,
+      0.488281,
+      1.25
+    ],
+    "kind": "thin",
+    "is_head": true,
+    "head_reasons": [
+      "tag:ct head",
+      "tag:head",
+      "tag:head"
+    ],
+    "reject_reasons": [],
+    "dicom_tags": {
+      "Modality": "CT",
+      "BodyPartExamined": "",
+      "StudyDescription": "CT Head",
+      "ProtocolName": "1.1 Routine Head32",
+      "SeriesDescription": "Recon 2: 5mm stnd",
+      "RequestedProcedureDescription": "",
+      "PerformedProcedureStepDescription": "CT Head",
+      "Rows": "512",
+      "Columns": "512",
+      "PixelSpacing": "[0.488281, 0.488281]",
+      "SliceThickness": "1.250000"
+    }
+  },
+  "candidate_summaries": [
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\ct_study\\series_10__CT__5mm__984_1766878626_250.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.984.1766878626.250",
+      "series_number": "10",
+      "series_description": "5mm",
+      "size": [
+        512,
+        512,
+        86
+      ],
+      "spacing": [
+        0.794922,
+        0.794922,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:abdomen",
+        "exclude:pelvis"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "6.1 Abdomen Pelvis 5mm SmartmA",
+        "SeriesDescription": "5mm",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.794922, 0.794922]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\ct_study\\series_11__CT__1.25mm_stnd__1766878626_250_11.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.984.1766878626.250.11",
+      "series_number": "11",
+      "series_description": "1.25mm stnd",
+      "size": [
+        512,
+        512,
+        341
+      ],
+      "spacing": [
+        0.794922,
+        0.794922,
+        1.25
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:abdomen",
+        "exclude:pelvis"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "6.1 Abdomen Pelvis 5mm SmartmA",
+        "SeriesDescription": "1.25mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.794922, 0.794922]",
+        "SliceThickness": "1.250000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\ct_study\\series_12__CT__Recon_3_5mm__1766878626_250_12.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.984.1766878626.250.12",
+      "series_number": "12",
+      "series_description": "Recon 3: 5mm",
+      "size": [
+        512,
+        512,
+        86
+      ],
+      "spacing": [
+        0.794922,
+        0.794922,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:abdomen",
+        "exclude:pelvis"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "6.1 Abdomen Pelvis 5mm SmartmA",
+        "SeriesDescription": "Recon 3: 5mm",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.794922, 0.794922]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\ct_study\\series_1__CT__Scout__984_1766878626_150.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.984.1766878626.150",
+      "series_number": "1",
+      "series_description": "Scout",
+      "size": [
+        835,
+        368,
+        1
+      ],
+      "spacing": [
+        0.634731,
+        0.545455,
+        10.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:scout"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "2.1 sinus/orbit",
+        "SeriesDescription": "Scout",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "368",
+        "Columns": "835",
+        "PixelSpacing": "[0.545455, 0.634731]",
+        "SliceThickness": "200.727280"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\ct_study\\series_2__CT__3.75mmstnd__984_1766878626_155.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.984.1766878626.155",
+      "series_number": "2",
+      "series_description": "3.75mmstnd",
+      "size": [
+        512,
+        512,
+        51
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        3.75
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "2.1 sinus/orbit",
+        "SeriesDescription": "3.75mmstnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "3.750000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\ct_study\\series_3__CT__0.625mm_stnd__1766878626_155_3.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.984.1766878626.155.3",
+      "series_number": "3",
+      "series_description": "0.625mm stnd",
+      "size": [
+        512,
+        512,
+        301
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        0.625
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "2.1 sinus/orbit",
+        "SeriesDescription": "0.625mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "0.625000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\ct_study\\series_4__CT__0.625mm_bone__1766878626_155_4.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.984.1766878626.155.4",
+      "series_number": "4",
+      "series_description": "0.625mm bone",
+      "size": [
+        512,
+        512,
+        301
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        0.625
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "2.1 sinus/orbit",
+        "SeriesDescription": "0.625mm bone",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "0.625000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\ct_study\\series_5__CT__5mm_stnd__984_1766878626_210.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.984.1766878626.210",
+      "series_number": "5",
+      "series_description": "5mm stnd",
+      "size": [
+        512,
+        512,
+        32
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "1.1 Routine Head32",
+        "SeriesDescription": "5mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\ct_study\\series_6__CT__Recon_2_5mm_stnd__1766878626_210_6.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.984.1766878626.210.6",
+      "series_number": "6",
+      "series_description": "Recon 2: 5mm stnd",
+      "size": [
+        512,
+        512,
+        125
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        1.25
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "1.1 Routine Head32",
+        "SeriesDescription": "Recon 2: 5mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "1.250000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\ct_study\\series_7__CT__Recon_3_5mm_stnd__1766878626_210_7.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.984.1766878626.210.7",
+      "series_number": "7",
+      "series_description": "Recon 3: 5mm stnd",
+      "size": [
+        512,
+        512,
+        32
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "1.1 Routine Head32",
+        "SeriesDescription": "Recon 3: 5mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\ct_study\\series_8__CT__Recon_4_5mm_stnd__1766878626_210_8.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.984.1766878626.210.8",
+      "series_number": "8",
+      "series_description": "Recon 4: 5mm stnd",
+      "size": [
+        512,
+        512,
+        125
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        1.25
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "1.1 Routine Head32",
+        "SeriesDescription": "Recon 4: 5mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "1.250000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\ct_study\\series_9__CT__Scout__984_1766878626_247.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.984.1766878626.247",
+      "series_number": "9",
+      "series_description": "Scout",
+      "size": [
+        835,
+        1394,
+        1
+      ],
+      "spacing": [
+        0.634731,
+        0.545455,
+        10.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:abdomen",
+        "exclude:pelvis",
+        "exclude:scout"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "6.1 Abdomen Pelvis 5mm SmartmA",
+        "SeriesDescription": "Scout",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "1394",
+        "Columns": "835",
+        "PixelSpacing": "[0.545455, 0.634731]",
+        "SliceThickness": "760.636353"
+      }
+    }
+  ],
+  "render": {
+    "plane": "axial",
+    "frame_count": 30,
+    "output_size": [
+      512,
+      512
+    ],
+    "sampled_slice_indices": [
+      0,
+      4,
+      9,
+      13,
+      17,
+      21,
+      26,
+      30,
+      34,
+      38,
+      43,
+      47,
+      51,
+      56,
+      60,
+      64,
+      68,
+      73,
+      77,
+      81,
+      86,
+      90,
+      94,
+      98,
+      103,
+      107,
+      111,
+      115,
+      120,
+      124
+    ],
+    "volume_shape": [
+      512,
+      512,
+      125
+    ],
+    "frame_paths": [
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_000.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_001.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_002.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_003.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_004.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_005.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_006.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_007.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_008.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_009.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_010.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_011.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_012.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_013.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_014.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_015.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_016.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_017.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_018.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_019.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_020.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_021.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_022.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_023.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_024.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_025.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_026.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_027.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_028.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\frames\\frame_029.png"
+    ],
+    "report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\report\\report.png",
+    "preview_grid": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\preview_grid.png"
+  },
+  "source": {
+    "gt_pair_sample_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230",
+    "source_report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__郝长彬 1431103 基底节出血__study2__61996792__20251230\\report\\report.png",
+    "source_case_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\手术治疗\\郝长彬 1431103 基底节出血"
+  }
+}

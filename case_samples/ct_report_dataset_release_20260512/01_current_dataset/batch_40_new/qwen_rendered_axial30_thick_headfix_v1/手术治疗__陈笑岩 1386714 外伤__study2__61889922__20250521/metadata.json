@@ -1,0 +1,734 @@
+﻿{
+  "sample_id": "手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521",
+  "variant": "thick_headfix_v1",
+  "treatment_type": "手术治疗",
+  "case_name": "陈笑岩 1386714 外伤",
+  "patient_name": "陈笑岩",
+  "image_id": "61889922",
+  "study_date": "20250521",
+  "study_index": "study2",
+  "report_label": "出院CT报告",
+  "window": {
+    "mode": "brain",
+    "center": 37.0,
+    "width": 82.0
+  },
+  "selected_series": {
+    "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_1__CT__5mm_stnd__928_1747524615_168.nii.gz",
+    "series_instance_uid": "1.2.840.113619.2.428.3.168431890.928.1747524615.168",
+    "series_number": "1",
+    "series_description": "5mm stnd",
+    "size": [
+      512,
+      512,
+      36
+    ],
+    "spacing": [
+      0.488281,
+      0.488281,
+      5.0
+    ],
+    "kind": "thick",
+    "is_head": true,
+    "head_reasons": [
+      "tag:head"
+    ],
+    "reject_reasons": [],
+    "dicom_tags": {
+      "Modality": "CT",
+      "BodyPartExamined": "",
+      "StudyDescription": "CT L-Knee +3D",
+      "ProtocolName": "1.1 Routine Head32",
+      "SeriesDescription": "5mm stnd",
+      "RequestedProcedureDescription": "",
+      "PerformedProcedureStepDescription": "CT L-Knee +3D",
+      "Rows": "512",
+      "Columns": "512",
+      "PixelSpacing": "[0.488281, 0.488281]",
+      "SliceThickness": "5.000000"
+    }
+  },
+  "candidate_summaries": [
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_1__CT__5mm_stnd__928_1747524615_168.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.928.1747524615.168",
+      "series_number": "1",
+      "series_description": "5mm stnd",
+      "size": [
+        512,
+        512,
+        36
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L-Knee +3D",
+        "ProtocolName": "1.1 Routine Head32",
+        "SeriesDescription": "5mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L-Knee +3D",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_1__CT__Scout__928_1747524615_298.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.928.1747524615.298",
+      "series_number": "1",
+      "series_description": "Scout",
+      "size": [
+        835,
+        1009,
+        2
+      ],
+      "spacing": [
+        0.634731,
+        0.545455,
+        374.7665940288702
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis",
+        "exclude:scout"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "8.1 Pelvis for Fracture",
+        "SeriesDescription": "Scout",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "1009",
+        "Columns": "835",
+        "PixelSpacing": "[0.545455, 0.634731]",
+        "SliceThickness": "550.727295"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_2__CT__5mm_stnd__928_1747524615_305.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.928.1747524615.305",
+      "series_number": "2",
+      "series_description": "5mm stnd",
+      "size": [
+        512,
+        512,
+        105
+      ],
+      "spacing": [
+        0.550781,
+        0.550781,
+        4.951923076923077
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "8.1 Pelvis for Fracture",
+        "SeriesDescription": "5mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.550781, 0.550781]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_2__CT__Recon_2_5mm_stnd__1747524615_168_2.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.928.1747524615.168.2",
+      "series_number": "2",
+      "series_description": "Recon 2: 5mm stnd",
+      "size": [
+        512,
+        512,
+        138
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        1.2773722627737227
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L-Knee +3D",
+        "ProtocolName": "1.1 Routine Head32",
+        "SeriesDescription": "Recon 2: 5mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L-Knee +3D",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "1.250000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_300__CT__Processed_Images__1_5_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.2689842052.129536.1747810120.1.5.1",
+      "series_number": "300",
+      "series_description": "Processed Images",
+      "size": [
+        512,
+        512,
+        13
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "8.1 Pelvis for Fracture",
+        "SeriesDescription": "Processed Images",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "",
+        "SliceThickness": "0.625"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_301__CT__3D_Saved_State_-_AutoSave__15_9_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.2689842052.129536.1747810121.15.9.1",
+      "series_number": "301",
+      "series_description": "3D Saved State - AutoSave",
+      "size": [
+        1024,
+        1024,
+        1
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "8.1 Pelvis for Fracture",
+        "SeriesDescription": "3D Saved State - AutoSave",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "1024",
+        "Columns": "1024",
+        "PixelSpacing": "",
+        "SliceThickness": "0.625"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_302__CT__Processed_Images__1_4_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.2689842052.132616.1747810161.1.4.1",
+      "series_number": "302",
+      "series_description": "Processed Images",
+      "size": [
+        512,
+        512,
+        70
+      ],
+      "spacing": [
+        0.5507810116,
+        0.5507810116,
+        4.483008543290497
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "8.1 Pelvis for Fracture",
+        "SeriesDescription": "Processed Images",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.55078125, 0.55078125]",
+        "SliceThickness": "0.5507810116"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_303__CT__Processed_Images__72_4_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.2689842052.132616.1747810167.72.4.1",
+      "series_number": "303",
+      "series_description": "Processed Images",
+      "size": [
+        512,
+        512,
+        70
+      ],
+      "spacing": [
+        0.5507810116,
+        0.5507810116,
+        5.245627294102358
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "8.1 Pelvis for Fracture",
+        "SeriesDescription": "Processed Images",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.78125, 0.78125]",
+        "SliceThickness": "0.5507810116"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_304__CT__Processed_Images__143_4_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.2689842052.132616.1747810171.143.4.1",
+      "series_number": "304",
+      "series_description": "Processed Images",
+      "size": [
+        512,
+        512,
+        70
+      ],
+      "spacing": [
+        0.5507810116,
+        0.5507810116,
+        2.911583770459849
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "8.1 Pelvis for Fracture",
+        "SeriesDescription": "Processed Images",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.5507810116, 0.5507810116]",
+        "SliceThickness": "0.625"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_3__CT__0.625mm_Stnd__1747524615_305_3.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.928.1747524615.305.3",
+      "series_number": "3",
+      "series_description": "0.625mm Stnd",
+      "size": [
+        512,
+        512,
+        826
+      ],
+      "spacing": [
+        0.550781,
+        0.550781,
+        0.6242424242424243
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "8.1 Pelvis for Fracture",
+        "SeriesDescription": "0.625mm Stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.550781, 0.550781]",
+        "SliceThickness": "0.625000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_3__CT__Recon_3_5mm_stnd__1747524615_168_3.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.928.1747524615.168.3",
+      "series_number": "3",
+      "series_description": "Recon 3: 5mm stnd",
+      "size": [
+        512,
+        512,
+        36
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L-Knee +3D",
+        "ProtocolName": "1.1 Routine Head32",
+        "SeriesDescription": "Recon 3: 5mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L-Knee +3D",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_4__CT__0.625mm_bone__1747524615_305_4.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.928.1747524615.305.4",
+      "series_number": "4",
+      "series_description": "0.625mm bone",
+      "size": [
+        512,
+        512,
+        826
+      ],
+      "spacing": [
+        0.550781,
+        0.550781,
+        0.6242424242424243
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "8.1 Pelvis for Fracture",
+        "SeriesDescription": "0.625mm bone",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.550781, 0.550781]",
+        "SliceThickness": "0.625000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_4__CT__Recon_4_5mm_stnd__1747524615_168_4.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.928.1747524615.168.4",
+      "series_number": "4",
+      "series_description": "Recon 4: 5mm stnd",
+      "size": [
+        512,
+        512,
+        138
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        1.2773722627737227
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L-Knee +3D",
+        "ProtocolName": "1.1 Routine Head32",
+        "SeriesDescription": "Recon 4: 5mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L-Knee +3D",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "1.250000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_5__CT__Scout__928_1747524615_213.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.928.1747524615.213",
+      "series_number": "5",
+      "series_description": "Scout",
+      "size": [
+        835,
+        661,
+        1
+      ],
+      "spacing": [
+        0.634731,
+        0.545455,
+        10.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:scout"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L-Knee +3D",
+        "ProtocolName": "5.1 Routine Chest 5mm SmartmA",
+        "SeriesDescription": "Scout",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L-Knee +3D",
+        "Rows": "661",
+        "Columns": "835",
+        "PixelSpacing": "[0.545455, 0.634731]",
+        "SliceThickness": "360.727295"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_6__CT__5mm_Std__928_1747524615_216.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.928.1747524615.216",
+      "series_number": "6",
+      "series_description": "5mm Std",
+      "size": [
+        512,
+        512,
+        70
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L-Knee +3D",
+        "ProtocolName": "5.1 Routine Chest 5mm SmartmA",
+        "SeriesDescription": "5mm Std",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L-Knee +3D",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_7__CT__1.25mm_stnd__1747524615_216_7.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.928.1747524615.216.7",
+      "series_number": "7",
+      "series_description": "1.25mm stnd",
+      "size": [
+        512,
+        512,
+        277
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        1.25
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L-Knee +3D",
+        "ProtocolName": "5.1 Routine Chest 5mm SmartmA",
+        "SeriesDescription": "1.25mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L-Knee +3D",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "1.250000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\ct_study\\series_9__CT__Recon_4_5mm_Std__1747524615_216_9.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.928.1747524615.216.9",
+      "series_number": "9",
+      "series_description": "Recon 4: 5mm Std",
+      "size": [
+        512,
+        512,
+        70
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L-Knee +3D",
+        "ProtocolName": "5.1 Routine Chest 5mm SmartmA",
+        "SeriesDescription": "Recon 4: 5mm Std",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L-Knee +3D",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5.000000"
+      }
+    }
+  ],
+  "render": {
+    "plane": "axial",
+    "frame_count": 30,
+    "output_size": [
+      512,
+      512
+    ],
+    "sampled_slice_indices": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23,
+      24,
+      25,
+      27,
+      28,
+      29,
+      30,
+      31,
+      33,
+      34,
+      35
+    ],
+    "volume_shape": [
+      512,
+      512,
+      36
+    ],
+    "frame_paths": [
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_000.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_001.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_002.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_003.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_004.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_005.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_006.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_007.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_008.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_009.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_010.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_011.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_012.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_013.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_014.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_015.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_016.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_017.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_018.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_019.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_020.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_021.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_022.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_023.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_024.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_025.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_026.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_027.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_028.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\frames\\frame_029.png"
+    ],
+    "report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\report\\report.png",
+    "preview_grid": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\preview_grid.png"
+  },
+  "source": {
+    "gt_pair_sample_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521",
+    "source_report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__陈笑岩 1386714 外伤__study2__61889922__20250521\\report\\report.png",
+    "source_case_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\手术治疗\\陈笑岩 1386714 外伤"
+  }
+}

@@ -1,0 +1,428 @@
+﻿{
+  "sample_id": "保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312",
+  "variant": "thin_headfix_v1",
+  "treatment_type": "保守治疗",
+  "case_name": "吴伯云 753861 小脑出血",
+  "patient_name": "吴伯云",
+  "image_id": "60810713",
+  "study_date": "20260312",
+  "study_index": "study1",
+  "report_label": "入院CT报告",
+  "window": {
+    "mode": "brain",
+    "center": 37.0,
+    "width": 82.0
+  },
+  "selected_series": {
+    "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\ct_study\\series_202__CT__med_iDose_4__1_63908889490594177300002_4631046309.nii.gz",
+    "series_instance_uid": "1.3.46.670589.33.1.63908889490594177300002.4631046309550826184",
+    "series_number": "202",
+    "series_description": "med, iDose (4)",
+    "size": [
+      512,
+      512,
+      165
+    ],
+    "spacing": [
+      0.48828125,
+      0.48828125,
+      1.0
+    ],
+    "kind": "thin",
+    "is_head": true,
+    "head_reasons": [
+      "tag:ct head",
+      "tag:head",
+      "tag:head",
+      "tag:brain"
+    ],
+    "reject_reasons": [],
+    "dicom_tags": {
+      "Modality": "CT",
+      "BodyPartExamined": "BRAIN",
+      "StudyDescription": "CT Head",
+      "ProtocolName": "01 H /Head",
+      "SeriesDescription": "med, iDose (4)",
+      "RequestedProcedureDescription": "",
+      "PerformedProcedureStepDescription": "",
+      "Rows": "512",
+      "Columns": "512",
+      "PixelSpacing": "[0.48828125, 0.48828125]",
+      "SliceThickness": "1"
+    }
+  },
+  "candidate_summaries": [
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\ct_study\\series_100__CT__no_desc__1_63908889442727762900001_5646379792.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63908889442727762900001.5646379792458528415",
+      "series_number": "100",
+      "series_description": "",
+      "size": [
+        512,
+        184,
+        1
+      ],
+      "spacing": [
+        0.9765625,
+        0.9765625,
+        1.0
+      ],
+      "kind": "scout",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01 H /Head",
+        "SeriesDescription": "",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "184",
+        "Columns": "512",
+        "PixelSpacing": "[0.9765625, 0.9765625]",
+        "SliceThickness": "0.625"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\ct_study\\series_1__CT__no_desc__301_1771491416_22__shape_734x888_part1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.301.1771491416.22",
+      "series_number": "1",
+      "series_description": "",
+      "size": [
+        888,
+        734,
+        1
+      ],
+      "spacing": [
+        0.596847,
+        0.545455,
+        10.0
+      ],
+      "kind": "scout",
+      "is_head": true,
+      "head_reasons": [
+        "tag:cranial"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Intracranial Artery",
+        "ProtocolName": "1.4 CTA",
+        "SeriesDescription": "",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Intracranial Artery",
+        "Rows": "734",
+        "Columns": "888",
+        "PixelSpacing": "[0.545455, 0.596847]",
+        "SliceThickness": "400.636353"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\ct_study\\series_1__CT__no_desc__301_1771491416_22__shape_762x888_part2.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.301.1771491416.22",
+      "series_number": "1",
+      "series_description": "",
+      "size": [
+        888,
+        762,
+        1
+      ],
+      "spacing": [
+        0.596847,
+        0.545455,
+        10.0
+      ],
+      "kind": "scout",
+      "is_head": true,
+      "head_reasons": [
+        "tag:cranial"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Intracranial Artery",
+        "ProtocolName": "1.4 CTA",
+        "SeriesDescription": "",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Intracranial Artery",
+        "Rows": "734",
+        "Columns": "888",
+        "PixelSpacing": "[0.545455, 0.596847]",
+        "SliceThickness": "400.636353"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\ct_study\\series_200__CT__Smart_Prep_Series__301_1771491416_29.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.301.1771491416.29",
+      "series_number": "200",
+      "series_description": "Smart Prep Series",
+      "size": [
+        512,
+        512,
+        10
+      ],
+      "spacing": [
+        0.513672,
+        0.513672,
+        1.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:cranial"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Intracranial Artery",
+        "ProtocolName": "1.4 CTA",
+        "SeriesDescription": "Smart Prep Series",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Intracranial Artery",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.513672, 0.513672]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\ct_study\\series_201__CT__med_iDose_1__1_63908889490594177300001_5753498315.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63908889490594177300001.5753498315774707043",
+      "series_number": "201",
+      "series_description": "med, iDose (1)",
+      "size": [
+        512,
+        512,
+        33
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01 H /Head",
+        "SeriesDescription": "med, iDose (1)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\ct_study\\series_202__CT__med_iDose_4__1_63908889490594177300002_4631046309.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63908889490594177300002.4631046309550826184",
+      "series_number": "202",
+      "series_description": "med, iDose (4)",
+      "size": [
+        512,
+        512,
+        165
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01 H /Head",
+        "SeriesDescription": "med, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "1"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\ct_study\\series_2__CT__no_desc__301_1771491416_30.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.301.1771491416.30",
+      "series_number": "2",
+      "series_description": "",
+      "size": [
+        512,
+        512,
+        69
+      ],
+      "spacing": [
+        0.513672,
+        0.513672,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:cranial"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Intracranial Artery",
+        "ProtocolName": "1.4 CTA",
+        "SeriesDescription": "",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Intracranial Artery",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.513672, 0.513672]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\ct_study\\series_3__CT__Recon_2__1771491416_30_3.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.301.1771491416.30.3",
+      "series_number": "3",
+      "series_description": "Recon 2:",
+      "size": [
+        512,
+        512,
+        545
+      ],
+      "spacing": [
+        0.513672,
+        0.513672,
+        0.625
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:cranial"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Intracranial Artery",
+        "ProtocolName": "1.4 CTA",
+        "SeriesDescription": "Recon 2:",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Intracranial Artery",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.513672, 0.513672]",
+        "SliceThickness": "0.625000"
+      }
+    }
+  ],
+  "render": {
+    "plane": "axial",
+    "frame_count": 30,
+    "output_size": [
+      512,
+      512
+    ],
+    "sampled_slice_indices": [
+      0,
+      6,
+      11,
+      17,
+      23,
+      28,
+      34,
+      40,
+      45,
+      51,
+      57,
+      62,
+      68,
+      74,
+      79,
+      85,
+      90,
+      96,
+      102,
+      107,
+      113,
+      119,
+      124,
+      130,
+      136,
+      141,
+      147,
+      153,
+      158,
+      164
+    ],
+    "volume_shape": [
+      512,
+      512,
+      165
+    ],
+    "frame_paths": [
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_000.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_001.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_002.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_003.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_004.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_005.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_006.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_007.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_008.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_009.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_010.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_011.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_012.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_013.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_014.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_015.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_016.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_017.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_018.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_019.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_020.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_021.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_022.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_023.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_024.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_025.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_026.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_027.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_028.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\frames\\frame_029.png"
+    ],
+    "report_png": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\report\\report.png",
+    "preview_grid": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\preview_grid.png"
+  },
+  "source": {
+    "gt_pair_sample_dir": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312",
+    "source_report_png": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__吴伯云 753861 小脑出血__study1__60810713__20260312\\report\\report.png",
+    "source_case_dir": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\保守治疗\\吴伯云 753861 小脑出血"
+  }
+}

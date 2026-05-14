@@ -1,0 +1,216 @@
+﻿{
+  "sample_id": "手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622",
+  "variant": "thin_headfix_v1",
+  "treatment_type": "手术治疗",
+  "case_name": "吴洪仁 1395471 蛛网膜下",
+  "patient_name": "吴洪仁",
+  "image_id": "61172868",
+  "study_date": "20250622",
+  "study_index": "study1",
+  "report_label": "入院CT报告",
+  "window": {
+    "mode": "brain",
+    "center": 37.0,
+    "width": 82.0
+  },
+  "selected_series": {
+    "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\ct_study\\series_202__CT__med_iDose_4__1_63886218164513880100002_4711023906.nii.gz",
+    "series_instance_uid": "1.3.46.670589.33.1.63886218164513880100002.4711023906931397224",
+    "series_number": "202",
+    "series_description": "med, iDose (4)",
+    "size": [
+      512,
+      512,
+      150
+    ],
+    "spacing": [
+      0.48828125,
+      0.48828125,
+      1.0000000000000002
+    ],
+    "kind": "thin",
+    "is_head": true,
+    "head_reasons": [
+      "tag:ct head",
+      "tag:head",
+      "tag:head",
+      "tag:brain"
+    ],
+    "reject_reasons": [],
+    "dicom_tags": {
+      "Modality": "CT",
+      "BodyPartExamined": "BRAIN",
+      "StudyDescription": "CT Head",
+      "ProtocolName": "01 H /Head",
+      "SeriesDescription": "med, iDose (4)",
+      "RequestedProcedureDescription": "",
+      "PerformedProcedureStepDescription": "",
+      "Rows": "512",
+      "Columns": "512",
+      "PixelSpacing": "[0.48828125, 0.48828125]",
+      "SliceThickness": "1"
+    }
+  },
+  "candidate_summaries": [
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\ct_study\\series_201__CT__med_iDose_1__1_63886218164513880100001_4775946351.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63886218164513880100001.4775946351126140272",
+      "series_number": "201",
+      "series_description": "med, iDose (1)",
+      "size": [
+        512,
+        512,
+        30
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        5.000000000000001
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01 H /Head",
+        "SeriesDescription": "med, iDose (1)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\ct_study\\series_202__CT__med_iDose_4__1_63886218164513880100002_4711023906.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63886218164513880100002.4711023906931397224",
+      "series_number": "202",
+      "series_description": "med, iDose (4)",
+      "size": [
+        512,
+        512,
+        150
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        1.0000000000000002
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01 H /Head",
+        "SeriesDescription": "med, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "1"
+      }
+    }
+  ],
+  "render": {
+    "plane": "axial",
+    "frame_count": 30,
+    "output_size": [
+      512,
+      512
+    ],
+    "sampled_slice_indices": [
+      0,
+      5,
+      10,
+      15,
+      21,
+      26,
+      31,
+      36,
+      41,
+      46,
+      51,
+      57,
+      62,
+      67,
+      72,
+      77,
+      82,
+      87,
+      92,
+      98,
+      103,
+      108,
+      113,
+      118,
+      123,
+      128,
+      134,
+      139,
+      144,
+      149
+    ],
+    "volume_shape": [
+      512,
+      512,
+      150
+    ],
+    "frame_paths": [
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_000.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_001.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_002.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_003.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_004.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_005.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_006.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_007.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_008.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_009.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_010.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_011.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_012.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_013.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_014.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_015.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_016.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_017.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_018.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_019.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_020.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_021.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_022.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_023.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_024.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_025.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_026.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_027.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_028.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\frames\\frame_029.png"
+    ],
+    "report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\report\\report.png",
+    "preview_grid": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\preview_grid.png"
+  },
+  "source": {
+    "gt_pair_sample_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622",
+    "source_report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__吴洪仁 1395471 蛛网膜下__study1__61172868__20250622\\report\\report.png",
+    "source_case_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\手术治疗\\吴洪仁 1395471 蛛网膜下"
+  }
+}

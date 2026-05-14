@@ -1,0 +1,287 @@
+﻿{
+  "sample_id": "手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016",
+  "variant": "thick_headfix_v1",
+  "treatment_type": "手术治疗",
+  "case_name": "鲍振声 1414616 颞叶出血",
+  "patient_name": "鲍振声",
+  "image_id": "60541346",
+  "study_date": "20251016",
+  "study_index": "study2",
+  "report_label": "出院CT报告",
+  "window": {
+    "mode": "brain",
+    "center": 37.0,
+    "width": 82.0
+  },
+  "selected_series": {
+    "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\ct_study\\series_2__CT__Recon_2__1759735309_787_2.nii.gz",
+    "series_instance_uid": "1.2.840.113619.2.452.3.168431634.181.1759735309.787.2",
+    "series_number": "2",
+    "series_description": "Recon 2:",
+    "size": [
+      512,
+      512,
+      39
+    ],
+    "spacing": [
+      0.488281,
+      0.488281,
+      1.0
+    ],
+    "kind": "thick",
+    "is_head": true,
+    "head_reasons": [
+      "tag:ct head",
+      "tag:head",
+      "tag:head"
+    ],
+    "reject_reasons": [],
+    "dicom_tags": {
+      "Modality": "CT",
+      "BodyPartExamined": "",
+      "StudyDescription": "CT Head",
+      "ProtocolName": "1.1 ROUTINE Head",
+      "SeriesDescription": "Recon 2:",
+      "RequestedProcedureDescription": "",
+      "PerformedProcedureStepDescription": "CT Head",
+      "Rows": "512",
+      "Columns": "512",
+      "PixelSpacing": "[0.488281, 0.488281]",
+      "SliceThickness": "5.000000"
+    }
+  },
+  "candidate_summaries": [
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\ct_study\\series_1__CT__no_desc__181_1759735309_787.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.181.1759735309.787",
+      "series_number": "1",
+      "series_description": "",
+      "size": [
+        512,
+        512,
+        39
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        1.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "1.1 ROUTINE Head",
+        "SeriesDescription": "",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\ct_study\\series_2__CT__Recon_2__1759735309_787_2.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.181.1759735309.787.2",
+      "series_number": "2",
+      "series_description": "Recon 2:",
+      "size": [
+        512,
+        512,
+        39
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        1.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "1.1 ROUTINE Head",
+        "SeriesDescription": "Recon 2:",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\ct_study\\series_3__CT__Recon_3__1759735309_787_3.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.181.1759735309.787.3",
+      "series_number": "3",
+      "series_description": "Recon 3:",
+      "size": [
+        512,
+        512,
+        150
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "1.1 ROUTINE Head",
+        "SeriesDescription": "Recon 3:",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "1.250000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\ct_study\\series_4__CT__Recon_4__1759735309_787_4.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.181.1759735309.787.4",
+      "series_number": "4",
+      "series_description": "Recon 4:",
+      "size": [
+        512,
+        512,
+        150
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "1.1 ROUTINE Head",
+        "SeriesDescription": "Recon 4:",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "1.250000"
+      }
+    }
+  ],
+  "render": {
+    "plane": "axial",
+    "frame_count": 30,
+    "output_size": [
+      512,
+      512
+    ],
+    "sampled_slice_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      32,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "volume_shape": [
+      512,
+      512,
+      39
+    ],
+    "frame_paths": [
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_000.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_001.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_002.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_003.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_004.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_005.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_006.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_007.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_008.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_009.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_010.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_011.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_012.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_013.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_014.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_015.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_016.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_017.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_018.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_019.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_020.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_021.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_022.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_023.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_024.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_025.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_026.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_027.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_028.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\frames\\frame_029.png"
+    ],
+    "report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\report\\report.png",
+    "preview_grid": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\preview_grid.png"
+  },
+  "source": {
+    "gt_pair_sample_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016",
+    "source_report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__鲍振声 1414616 颞叶出血__study2__60541346__20251016\\report\\report.png",
+    "source_case_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\手术治疗\\鲍振声 1414616 颞叶出血"
+  }
+}

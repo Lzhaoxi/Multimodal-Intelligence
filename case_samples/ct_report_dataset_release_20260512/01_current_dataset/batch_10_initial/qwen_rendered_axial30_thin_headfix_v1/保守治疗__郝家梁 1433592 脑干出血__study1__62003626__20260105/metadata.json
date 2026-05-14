@@ -1,0 +1,253 @@
+﻿{
+  "sample_id": "保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105",
+  "variant": "thin_headfix_v1",
+  "treatment_type": "保守治疗",
+  "case_name": "郝家梁 1433592 脑干出血",
+  "patient_name": "郝家梁",
+  "image_id": "62003626",
+  "study_date": "20260105",
+  "study_index": "study1",
+  "report_label": "入院CT报告",
+  "window": {
+    "mode": "brain",
+    "center": 37.0,
+    "width": 82.0
+  },
+  "selected_series": {
+    "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\ct_study\\series_202__CT__med_iDose_4__1_63903195490924201500002_5357966885.nii.gz",
+    "series_instance_uid": "1.3.46.670589.33.1.63903195490924201500002.5357966885135780006",
+    "series_number": "202",
+    "series_description": "med, iDose (4)",
+    "size": [
+      512,
+      512,
+      150
+    ],
+    "spacing": [
+      0.48828125,
+      0.48828125,
+      1.0
+    ],
+    "kind": "thin",
+    "is_head": true,
+    "head_reasons": [
+      "tag:ct head",
+      "tag:head",
+      "tag:head",
+      "tag:brain"
+    ],
+    "reject_reasons": [],
+    "dicom_tags": {
+      "Modality": "CT",
+      "BodyPartExamined": "BRAIN",
+      "StudyDescription": "CT Head",
+      "ProtocolName": "01 H /Head",
+      "SeriesDescription": "med, iDose (4)",
+      "RequestedProcedureDescription": "",
+      "PerformedProcedureStepDescription": "",
+      "Rows": "512",
+      "Columns": "512",
+      "PixelSpacing": "[0.48828125, 0.48828125]",
+      "SliceThickness": "1"
+    }
+  },
+  "candidate_summaries": [
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\ct_study\\series_100__CT__no_desc__1_63903195429900788100001_5709514635.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903195429900788100001.5709514635432774098",
+      "series_number": "100",
+      "series_description": "",
+      "size": [
+        512,
+        184,
+        1
+      ],
+      "spacing": [
+        0.9765625,
+        0.9765625,
+        1.0
+      ],
+      "kind": "scout",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01 H /Head",
+        "SeriesDescription": "",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "184",
+        "Columns": "512",
+        "PixelSpacing": "[0.9765625, 0.9765625]",
+        "SliceThickness": "0.625"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\ct_study\\series_201__CT__med_iDose_1__1_63903195490924201500001_5619198224.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903195490924201500001.5619198224632585958",
+      "series_number": "201",
+      "series_description": "med, iDose (1)",
+      "size": [
+        512,
+        512,
+        30
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01 H /Head",
+        "SeriesDescription": "med, iDose (1)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\ct_study\\series_202__CT__med_iDose_4__1_63903195490924201500002_5357966885.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903195490924201500002.5357966885135780006",
+      "series_number": "202",
+      "series_description": "med, iDose (4)",
+      "size": [
+        512,
+        512,
+        150
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01 H /Head",
+        "SeriesDescription": "med, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "1"
+      }
+    }
+  ],
+  "render": {
+    "plane": "axial",
+    "frame_count": 30,
+    "output_size": [
+      512,
+      512
+    ],
+    "sampled_slice_indices": [
+      0,
+      5,
+      10,
+      15,
+      21,
+      26,
+      31,
+      36,
+      41,
+      46,
+      51,
+      57,
+      62,
+      67,
+      72,
+      77,
+      82,
+      87,
+      92,
+      98,
+      103,
+      108,
+      113,
+      118,
+      123,
+      128,
+      134,
+      139,
+      144,
+      149
+    ],
+    "volume_shape": [
+      512,
+      512,
+      150
+    ],
+    "frame_paths": [
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_000.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_001.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_002.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_003.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_004.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_005.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_006.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_007.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_008.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_009.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_010.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_011.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_012.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_013.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_014.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_015.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_016.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_017.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_018.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_019.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_020.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_021.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_022.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_023.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_024.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_025.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_026.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_027.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_028.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\frames\\frame_029.png"
+    ],
+    "report_png": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\report\\report.png",
+    "preview_grid": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\preview_grid.png"
+  },
+  "source": {
+    "gt_pair_sample_dir": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105",
+    "source_report_png": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\gt_pairs_by_study\\保守治疗__郝家梁 1433592 脑干出血__study1__62003626__20260105\\report\\report.png",
+    "source_case_dir": "D:\\Multimodel-Intelligence\\case_samples\\AI诊疗课题\\多模态微调草稿\\保守治疗\\郝家梁 1433592 脑干出血"
+  }
+}

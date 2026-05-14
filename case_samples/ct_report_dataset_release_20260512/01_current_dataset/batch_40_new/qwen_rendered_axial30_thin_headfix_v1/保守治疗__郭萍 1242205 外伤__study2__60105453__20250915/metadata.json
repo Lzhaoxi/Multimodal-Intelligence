@@ -1,0 +1,464 @@
+﻿{
+  "sample_id": "保守治疗__郭萍 1242205 外伤__study2__60105453__20250915",
+  "variant": "thin_headfix_v1",
+  "treatment_type": "保守治疗",
+  "case_name": "郭萍 1242205 外伤",
+  "patient_name": "郭萍",
+  "image_id": "60105453",
+  "study_date": "20250915",
+  "study_index": "study2",
+  "report_label": "出院CT报告",
+  "window": {
+    "mode": "brain",
+    "center": 37.0,
+    "width": 82.0
+  },
+  "selected_series": {
+    "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\ct_study\\series_7__CT__Recon_2_5mm_stnd__1757807093_395_7.nii.gz",
+    "series_instance_uid": "1.2.840.113619.2.428.3.168431890.5.1757807093.395.7",
+    "series_number": "7",
+    "series_description": "Recon 2: 5mm stnd",
+    "size": [
+      512,
+      512,
+      161
+    ],
+    "spacing": [
+      0.488281,
+      0.488281,
+      1.25
+    ],
+    "kind": "thin",
+    "is_head": true,
+    "head_reasons": [
+      "tag:ct head",
+      "tag:head",
+      "tag:head"
+    ],
+    "reject_reasons": [],
+    "dicom_tags": {
+      "Modality": "CT",
+      "BodyPartExamined": "",
+      "StudyDescription": "CT Head",
+      "ProtocolName": "1.1 Routine Head32",
+      "SeriesDescription": "Recon 2: 5mm stnd",
+      "RequestedProcedureDescription": "",
+      "PerformedProcedureStepDescription": "CT Head",
+      "Rows": "512",
+      "Columns": "512",
+      "PixelSpacing": "[0.488281, 0.488281]",
+      "SliceThickness": "1.250000"
+    }
+  },
+  "candidate_summaries": [
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\ct_study\\series_1__CT__Scout__5_1757807093_316__shape_612x835_part1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.5.1757807093.316",
+      "series_number": "1",
+      "series_description": "Scout",
+      "size": [
+        835,
+        612,
+        1
+      ],
+      "spacing": [
+        0.634731,
+        0.545455,
+        10.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:scout"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "5.1 Routine Chest 5mm SmartmA",
+        "SeriesDescription": "Scout",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "921",
+        "Columns": "835",
+        "PixelSpacing": "[0.545455, 0.634731]",
+        "SliceThickness": "502.818207"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\ct_study\\series_1__CT__Scout__5_1757807093_316__shape_921x835_part2.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.5.1757807093.316",
+      "series_number": "1",
+      "series_description": "Scout",
+      "size": [
+        835,
+        921,
+        1
+      ],
+      "spacing": [
+        0.634731,
+        0.545455,
+        10.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:scout"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "5.1 Routine Chest 5mm SmartmA",
+        "SeriesDescription": "Scout",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "921",
+        "Columns": "835",
+        "PixelSpacing": "[0.545455, 0.634731]",
+        "SliceThickness": "502.818207"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\ct_study\\series_2__CT__5mm_Std__5_1757807093_323.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.5.1757807093.323",
+      "series_number": "2",
+      "series_description": "5mm Std",
+      "size": [
+        512,
+        512,
+        68
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "5.1 Routine Chest 5mm SmartmA",
+        "SeriesDescription": "5mm Std",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\ct_study\\series_3__CT__1.25mm_stnd__1757807093_323_3.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.5.1757807093.323.3",
+      "series_number": "3",
+      "series_description": "1.25mm stnd",
+      "size": [
+        512,
+        512,
+        269
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        1.25
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "5.1 Routine Chest 5mm SmartmA",
+        "SeriesDescription": "1.25mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "1.250000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\ct_study\\series_5__CT__Recon_4_5mm_Std__1757807093_323_5.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.5.1757807093.323.5",
+      "series_number": "5",
+      "series_description": "Recon 4: 5mm Std",
+      "size": [
+        512,
+        512,
+        68
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "5.1 Routine Chest 5mm SmartmA",
+        "SeriesDescription": "Recon 4: 5mm Std",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\ct_study\\series_6__CT__5mm_stnd__5_1757807093_395.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.5.1757807093.395",
+      "series_number": "6",
+      "series_description": "5mm stnd",
+      "size": [
+        512,
+        512,
+        41
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "1.1 Routine Head32",
+        "SeriesDescription": "5mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\ct_study\\series_7__CT__Recon_2_5mm_stnd__1757807093_395_7.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.5.1757807093.395.7",
+      "series_number": "7",
+      "series_description": "Recon 2: 5mm stnd",
+      "size": [
+        512,
+        512,
+        161
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        1.25
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "1.1 Routine Head32",
+        "SeriesDescription": "Recon 2: 5mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "1.250000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\ct_study\\series_8__CT__Recon_3_5mm_stnd__1757807093_395_8.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.5.1757807093.395.8",
+      "series_number": "8",
+      "series_description": "Recon 3: 5mm stnd",
+      "size": [
+        512,
+        512,
+        41
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "1.1 Routine Head32",
+        "SeriesDescription": "Recon 3: 5mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\ct_study\\series_9__CT__Recon_4_5mm_stnd__1757807093_395_9.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.428.3.168431890.5.1757807093.395.9",
+      "series_number": "9",
+      "series_description": "Recon 4: 5mm stnd",
+      "size": [
+        512,
+        512,
+        161
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        1.25
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "1.1 Routine Head32",
+        "SeriesDescription": "Recon 4: 5mm stnd",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT Head",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "1.250000"
+      }
+    }
+  ],
+  "render": {
+    "plane": "axial",
+    "frame_count": 30,
+    "output_size": [
+      512,
+      512
+    ],
+    "sampled_slice_indices": [
+      0,
+      6,
+      11,
+      17,
+      22,
+      28,
+      33,
+      39,
+      44,
+      50,
+      55,
+      61,
+      66,
+      72,
+      77,
+      83,
+      88,
+      94,
+      99,
+      105,
+      110,
+      116,
+      121,
+      127,
+      132,
+      138,
+      143,
+      149,
+      154,
+      160
+    ],
+    "volume_shape": [
+      512,
+      512,
+      161
+    ],
+    "frame_paths": [
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_000.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_001.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_002.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_003.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_004.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_005.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_006.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_007.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_008.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_009.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_010.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_011.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_012.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_013.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_014.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_015.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_016.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_017.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_018.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_019.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_020.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_021.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_022.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_023.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_024.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_025.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_026.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_027.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_028.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\frames\\frame_029.png"
+    ],
+    "report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\report\\report.png",
+    "preview_grid": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\preview_grid.png"
+  },
+  "source": {
+    "gt_pair_sample_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915",
+    "source_report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__郭萍 1242205 外伤__study2__60105453__20250915\\report\\report.png",
+    "source_case_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\保守治疗\\郭萍 1242205 外伤"
+  }
+}

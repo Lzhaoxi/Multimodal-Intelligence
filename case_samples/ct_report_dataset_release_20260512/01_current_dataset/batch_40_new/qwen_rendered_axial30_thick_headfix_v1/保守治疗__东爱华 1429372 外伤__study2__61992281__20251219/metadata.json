@@ -1,0 +1,714 @@
+﻿{
+  "sample_id": "保守治疗__东爱华 1429372 外伤__study2__61992281__20251219",
+  "variant": "thick_headfix_v1",
+  "treatment_type": "保守治疗",
+  "case_name": "东爱华 1429372 外伤",
+  "patient_name": "东爱华",
+  "image_id": "61992281",
+  "study_date": "20251219",
+  "study_index": "study2",
+  "report_label": "出院CT报告",
+  "window": {
+    "mode": "brain",
+    "center": 37.0,
+    "width": 82.0
+  },
+  "selected_series": {
+    "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_1__CT__head__2087_1766103821_157898.nii.gz",
+    "series_instance_uid": "1.2.156.91120111.2.30.3.8323329.2087.1766103821.157898",
+    "series_number": "1",
+    "series_description": "head",
+    "size": [
+      512,
+      512,
+      36
+    ],
+    "spacing": [
+      0.488281,
+      0.488281,
+      5.0
+    ],
+    "kind": "thick",
+    "is_head": true,
+    "head_reasons": [
+      "tag:ct head",
+      "tag:head",
+      "tag:head"
+    ],
+    "reject_reasons": [],
+    "dicom_tags": {
+      "Modality": "CT",
+      "BodyPartExamined": "",
+      "StudyDescription": "CT Head",
+      "ProtocolName": "head",
+      "SeriesDescription": "head",
+      "RequestedProcedureDescription": "",
+      "PerformedProcedureStepDescription": "",
+      "Rows": "512",
+      "Columns": "512",
+      "PixelSpacing": "[0.488281, 0.488281]",
+      "SliceThickness": "5"
+    }
+  },
+  "candidate_summaries": [
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_1000__CT__Processed_Images__1_4_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.3008373474.41766.1766103747.1.4.1",
+      "series_number": "1000",
+      "series_description": "Processed Images",
+      "size": [
+        512,
+        512,
+        69
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.278585711855503
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis",
+        "exclude:humerus"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "8.1 Pelvis for   AutomA  SS30%",
+        "SeriesDescription": "Processed Images",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "0.703125"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_1001__CT__Processed_Images__71_4_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.3008373474.41766.1766103753.71.4.1",
+      "series_number": "1001",
+      "series_description": "Processed Images",
+      "size": [
+        512,
+        512,
+        69
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.366562180292683
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis",
+        "exclude:humerus"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "8.1 Pelvis for   AutomA  SS30%",
+        "SeriesDescription": "Processed Images",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "0.703125"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_10__CT__For_3D__1765612799_715_10.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.135.1765612799.715.10",
+      "series_number": "10",
+      "series_description": "For 3D",
+      "size": [
+        512,
+        512,
+        213
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        1.25
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis",
+        "exclude:humerus",
+        "exclude:for 3d"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "8.1 Pelvis for   AutomA  SS30%",
+        "SeriesDescription": "For 3D",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L Humerus",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "1.250000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_1__CT__head__2087_1766103821_157898.nii.gz",
+      "series_instance_uid": "1.2.156.91120111.2.30.3.8323329.2087.1766103821.157898",
+      "series_number": "1",
+      "series_description": "head",
+      "size": [
+        512,
+        512,
+        36
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "head",
+        "SeriesDescription": "head",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_1__CT__Scout__135_1765612799_595.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.135.1765612799.595",
+      "series_number": "1",
+      "series_description": "Scout",
+      "size": [
+        888,
+        367,
+        1
+      ],
+      "spacing": [
+        0.596847,
+        0.545455,
+        10.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:humerus",
+        "exclude:scout"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "2.1 Sinus Supine Helical  SS30%",
+        "SeriesDescription": "Scout",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L Humerus",
+        "Rows": "367",
+        "Columns": "888",
+        "PixelSpacing": "[0.545455, 0.596847]",
+        "SliceThickness": "200.727280"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_2__CT__no_desc__135_1765612799_598.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.135.1765612799.598",
+      "series_number": "2",
+      "series_description": "",
+      "size": [
+        512,
+        512,
+        48
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        3.75
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:humerus"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "2.1 Sinus Supine Helical  SS30%",
+        "SeriesDescription": "",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L Humerus",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "3.750000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_300__CT__Processed_Images__1_4_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.3008373474.40074.1766103705.1.4.1",
+      "series_number": "300",
+      "series_description": "Processed Images",
+      "size": [
+        512,
+        512,
+        47
+      ],
+      "spacing": [
+        0.4882810116,
+        0.4882810116,
+        4.0364344360820645
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:humerus"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "2.1 Sinus Supine Helical  SS30%",
+        "SeriesDescription": "Processed Images",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.4882810116, 0.4882810116]",
+        "SliceThickness": "0.703125"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_301__CT__Processed_Images__49_4_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.3008373474.40074.1766103711.49.4.1",
+      "series_number": "301",
+      "series_description": "Processed Images",
+      "size": [
+        512,
+        512,
+        47
+      ],
+      "spacing": [
+        0.4882810116,
+        0.4882810116,
+        5.053990389908561
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:humerus"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "2.1 Sinus Supine Helical  SS30%",
+        "SeriesDescription": "Processed Images",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.4882810116, 0.4882810116]",
+        "SliceThickness": "0.625"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_303__CT__Processed_Images__1_5_1.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.80.3008373474.40797.1766103729.1.5.1",
+      "series_number": "303",
+      "series_description": "Processed Images",
+      "size": [
+        512,
+        512,
+        13
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:humerus"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "2.1 Sinus Supine Helical  SS30%",
+        "SeriesDescription": "Processed Images",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "",
+        "SliceThickness": "0.625"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_3__CT__Recon_2__1765612799_598_3.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.135.1765612799.598.3",
+      "series_number": "3",
+      "series_description": "Recon 2:",
+      "size": [
+        512,
+        512,
+        283
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        0.625
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:humerus"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "2.1 Sinus Supine Helical  SS30%",
+        "SeriesDescription": "Recon 2:",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L Humerus",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "0.625000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_4__CT__Recon_3__1765612799_598_4.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.135.1765612799.598.4",
+      "series_number": "4",
+      "series_description": "Recon 3:",
+      "size": [
+        512,
+        512,
+        283
+      ],
+      "spacing": [
+        0.488281,
+        0.488281,
+        0.625
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:humerus"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "2.1 Sinus Supine Helical  SS30%",
+        "SeriesDescription": "Recon 3:",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L Humerus",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.488281, 0.488281]",
+        "SliceThickness": "0.625000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_5__CT__Scout__135_1765612799_650.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.135.1765612799.650",
+      "series_number": "5",
+      "series_description": "Scout",
+      "size": [
+        888,
+        459,
+        2
+      ],
+      "spacing": [
+        0.596847,
+        0.545455,
+        374.7665940288702
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis",
+        "exclude:humerus",
+        "exclude:scout"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "8.1 Pelvis for   AutomA  SS30%",
+        "SeriesDescription": "Scout",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L Humerus",
+        "Rows": "459",
+        "Columns": "888",
+        "PixelSpacing": "[0.545455, 0.596847]",
+        "SliceThickness": "250.636368"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_6__CT__1.25mm_DMPR_on__135_1765612799_655.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.135.1765612799.655",
+      "series_number": "6",
+      "series_description": "1.25mm            DMPR on",
+      "size": [
+        512,
+        512,
+        54
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis",
+        "exclude:humerus"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "8.1 Pelvis for   AutomA  SS30%",
+        "SeriesDescription": "1.25mm            DMPR on",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L Humerus",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5.000000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_7__CT__For_3D__1765612799_655_7.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.135.1765612799.655.7",
+      "series_number": "7",
+      "series_description": "For 3D",
+      "size": [
+        512,
+        512,
+        213
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        1.25
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis",
+        "exclude:humerus",
+        "exclude:for 3d"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "8.1 Pelvis for   AutomA  SS30%",
+        "SeriesDescription": "For 3D",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L Humerus",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "1.250000"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_8__CT__Scout__135_1765612799_712.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.135.1765612799.712",
+      "series_number": "8",
+      "series_description": "Scout",
+      "size": [
+        888,
+        826,
+        1
+      ],
+      "spacing": [
+        0.596847,
+        0.545455,
+        10.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis",
+        "exclude:humerus",
+        "exclude:scout"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "8.1 Pelvis for   AutomA  SS30%",
+        "SeriesDescription": "Scout",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L Humerus",
+        "Rows": "826",
+        "Columns": "888",
+        "PixelSpacing": "[0.545455, 0.596847]",
+        "SliceThickness": "450.545471"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\ct_study\\series_9__CT__1.25mm_DMPR_on__135_1765612799_715.nii.gz",
+      "series_instance_uid": "1.2.840.113619.2.452.3.168431634.135.1765612799.715",
+      "series_number": "9",
+      "series_description": "1.25mm            DMPR on",
+      "size": [
+        512,
+        512,
+        54
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:pelvis",
+        "exclude:humerus"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT L Humerus",
+        "ProtocolName": "8.1 Pelvis for   AutomA  SS30%",
+        "SeriesDescription": "1.25mm            DMPR on",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "CT L Humerus",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5.000000"
+      }
+    }
+  ],
+  "render": {
+    "plane": "axial",
+    "frame_count": 30,
+    "output_size": [
+      512,
+      512
+    ],
+    "sampled_slice_indices": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23,
+      24,
+      25,
+      27,
+      28,
+      29,
+      30,
+      31,
+      33,
+      34,
+      35
+    ],
+    "volume_shape": [
+      512,
+      512,
+      36
+    ],
+    "frame_paths": [
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_000.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_001.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_002.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_003.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_004.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_005.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_006.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_007.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_008.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_009.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_010.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_011.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_012.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_013.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_014.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_015.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_016.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_017.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_018.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_019.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_020.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_021.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_022.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_023.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_024.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_025.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_026.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_027.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_028.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\frames\\frame_029.png"
+    ],
+    "report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\report\\report.png",
+    "preview_grid": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thick_headfix_v1\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\preview_grid.png"
+  },
+  "source": {
+    "gt_pair_sample_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219",
+    "source_report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__东爱华 1429372 外伤__study2__61992281__20251219\\report\\report.png",
+    "source_case_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\保守治疗\\东爱华 1429372 外伤"
+  }
+}

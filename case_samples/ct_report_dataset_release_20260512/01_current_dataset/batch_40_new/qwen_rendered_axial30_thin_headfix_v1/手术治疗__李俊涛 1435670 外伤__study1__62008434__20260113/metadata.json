@@ -1,0 +1,832 @@
+﻿{
+  "sample_id": "手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113",
+  "variant": "thin_headfix_v1",
+  "treatment_type": "手术治疗",
+  "case_name": "李俊涛 1435670 外伤",
+  "patient_name": "李俊涛",
+  "image_id": "62008434",
+  "study_date": "20260113",
+  "study_index": "study1",
+  "report_label": "入院CT报告",
+  "window": {
+    "mode": "brain",
+    "center": 37.0,
+    "width": 82.0
+  },
+  "selected_series": {
+    "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_203__CT__med_iDose_4__1_63903917909337014400003_5169720854.nii.gz",
+    "series_instance_uid": "1.3.46.670589.33.1.63903917909337014400003.5169720854154086582",
+    "series_number": "203",
+    "series_description": "med, iDose (4)",
+    "size": [
+      512,
+      512,
+      165
+    ],
+    "spacing": [
+      0.48828125,
+      0.48828125,
+      1.0
+    ],
+    "kind": "thin",
+    "is_head": true,
+    "head_reasons": [
+      "tag:head",
+      "tag:brain"
+    ],
+    "reject_reasons": [],
+    "dicom_tags": {
+      "Modality": "CT",
+      "BodyPartExamined": "BRAIN",
+      "StudyDescription": "CT Brain",
+      "ProtocolName": "001 H-TRAUMA /Head",
+      "SeriesDescription": "med, iDose (4)",
+      "RequestedProcedureDescription": "",
+      "PerformedProcedureStepDescription": "",
+      "Rows": "512",
+      "Columns": "512",
+      "PixelSpacing": "[0.48828125, 0.48828125]",
+      "SliceThickness": "1"
+    }
+  },
+  "candidate_summaries": [
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_100__CT__no_desc__1_63903919061743253500001_5647740627.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903919061743253500001.5647740627298490664",
+      "series_number": "100",
+      "series_description": "",
+      "size": [
+        512,
+        1280,
+        1
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        1.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax",
+        "exclude:abdomen"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT upper Abdomen",
+        "ProtocolName": "02Chest WAISHANG  /Thorax",
+        "SeriesDescription": "",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "1280",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "0.625"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_201__CT__lung_iDose_4__1_63903919177572888800001_4622564095.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903919177572888800001.4622564095951291700",
+      "series_number": "201",
+      "series_description": "lung, iDose (4)",
+      "size": [
+        512,
+        512,
+        66
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax",
+        "exclude:lung",
+        "exclude:abdomen"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT upper Abdomen",
+        "ProtocolName": "02Chest WAISHANG  /Thorax",
+        "SeriesDescription": "lung, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_201__CT__med_iDose_1__1_63903917909337014400001_5282948196.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903917909337014400001.5282948196055038426",
+      "series_number": "201",
+      "series_description": "med, iDose (1)",
+      "size": [
+        512,
+        512,
+        33
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Brain",
+        "ProtocolName": "001 H-TRAUMA /Head",
+        "SeriesDescription": "med, iDose (1)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_202__CT__bone_iDose_1__1_63903917909337014400002_4771090395.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903917909337014400002.4771090395669311153",
+      "series_number": "202",
+      "series_description": "bone, iDose (1)",
+      "size": [
+        512,
+        512,
+        33
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Brain",
+        "ProtocolName": "001 H-TRAUMA /Head",
+        "SeriesDescription": "bone, iDose (1)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_202__CT__med_iDose_4__1_63903919177573891700002_4830071206.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903919177573891700002.4830071206423659328",
+      "series_number": "202",
+      "series_description": "med, iDose (4)",
+      "size": [
+        512,
+        512,
+        141
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax",
+        "exclude:abdomen"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT upper Abdomen",
+        "ProtocolName": "02Chest WAISHANG  /Thorax",
+        "SeriesDescription": "med, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_203__CT__Bone_iDose_4__1_63903919177573891700004_4732838008.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903919177573891700004.4732838008577204146",
+      "series_number": "203",
+      "series_description": "Bone, iDose (4)",
+      "size": [
+        512,
+        512,
+        85
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax",
+        "exclude:abdomen"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT upper Abdomen",
+        "ProtocolName": "02Chest WAISHANG  /Thorax",
+        "SeriesDescription": "Bone, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_203__CT__med_iDose_4__1_63903917909337014400003_5169720854.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903917909337014400003.5169720854154086582",
+      "series_number": "203",
+      "series_description": "med, iDose (4)",
+      "size": [
+        512,
+        512,
+        165
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Brain",
+        "ProtocolName": "001 H-TRAUMA /Head",
+        "SeriesDescription": "med, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "1"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_204__CT__bone_iDose_4__1_63903917909337014400004_5511933693.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903917909337014400004.5511933693608069698",
+      "series_number": "204",
+      "series_description": "bone, iDose (4)",
+      "size": [
+        512,
+        512,
+        165
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Brain",
+        "ProtocolName": "001 H-TRAUMA /Head",
+        "SeriesDescription": "bone, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "1"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_204__CT__med_iDose_4__1_63903919177573891700006_5174933485.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903919177573891700006.5174933485565404887",
+      "series_number": "204",
+      "series_description": "med, iDose (4)",
+      "size": [
+        512,
+        512,
+        881
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        0.8
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax",
+        "exclude:abdomen"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT upper Abdomen",
+        "ProtocolName": "02Chest WAISHANG  /Thorax",
+        "SeriesDescription": "med, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "1"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_205__CT__Batch_1__1_63903918050959544600001_5559919091.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903918050959544600001.5559919091102159315",
+      "series_number": "205",
+      "series_description": "Batch 1",
+      "size": [
+        714,
+        934,
+        20
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:batch"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Brain",
+        "ProtocolName": "",
+        "SeriesDescription": "Batch 1",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "934",
+        "Columns": "714",
+        "PixelSpacing": "",
+        "SliceThickness": ""
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_205__CT__Bone_iDose_4__1_63903919177573891700008_5608164541.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903919177573891700008.5608164541245914134",
+      "series_number": "205",
+      "series_description": "Bone, iDose (4)",
+      "size": [
+        512,
+        512,
+        425
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax",
+        "exclude:abdomen"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT upper Abdomen",
+        "ProtocolName": "02Chest WAISHANG  /Thorax",
+        "SeriesDescription": "Bone, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "1"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_206__CT__Batch_1__1_63903919823088333400001_5447418149.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903919823088333400001.5447418149655968191",
+      "series_number": "206",
+      "series_description": "Batch 1",
+      "size": [
+        714,
+        934,
+        20
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:abdomen",
+        "exclude:batch"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT upper Abdomen",
+        "ProtocolName": "",
+        "SeriesDescription": "Batch 1",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "934",
+        "Columns": "714",
+        "PixelSpacing": "",
+        "SliceThickness": ""
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_206__CT__Batch_2__1_63903918070743114600001_5529332155.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903918070743114600001.5529332155531017275",
+      "series_number": "206",
+      "series_description": "Batch 2",
+      "size": [
+        714,
+        934,
+        20
+      ],
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:batch"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Brain",
+        "ProtocolName": "",
+        "SeriesDescription": "Batch 2",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "934",
+        "Columns": "714",
+        "PixelSpacing": "",
+        "SliceThickness": ""
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_207__CT__Batch_1__1_63903918237306974700001_4638152844.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903918237306974700001.4638152844364414748",
+      "series_number": "207",
+      "series_description": "Batch 1",
+      "size": [
+        358,
+        466,
+        165
+      ],
+      "spacing": [
+        0.6650705,
+        0.6650705,
+        0.9999999891314426
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:batch"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Brain",
+        "ProtocolName": "001 H-TRAUMA /Head",
+        "SeriesDescription": "Batch 1",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "466",
+        "Columns": "358",
+        "PixelSpacing": "[0.6650705, 0.6650705]",
+        "SliceThickness": "1.09"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_301__CT__lung_iDose_4__1_63903919293411434900001_4735309830.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903919293411434900001.4735309830101524043",
+      "series_number": "301",
+      "series_description": "lung, iDose (4)",
+      "size": [
+        512,
+        512,
+        66
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax",
+        "exclude:lung",
+        "exclude:abdomen"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT upper Abdomen",
+        "ProtocolName": "02Chest WAISHANG  /Thorax",
+        "SeriesDescription": "lung, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_302__CT__med_iDose_4__1_63903919293411434900003_5255168089.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903919293411434900003.5255168089885593789",
+      "series_number": "302",
+      "series_description": "med, iDose (4)",
+      "size": [
+        512,
+        512,
+        141
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax",
+        "exclude:abdomen"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT upper Abdomen",
+        "ProtocolName": "02Chest WAISHANG  /Thorax",
+        "SeriesDescription": "med, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_303__CT__Bone_iDose_4__1_63903919293411434900005_5074211854.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903919293411434900005.5074211854624333387",
+      "series_number": "303",
+      "series_description": "Bone, iDose (4)",
+      "size": [
+        512,
+        512,
+        85
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax",
+        "exclude:abdomen"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT upper Abdomen",
+        "ProtocolName": "02Chest WAISHANG  /Thorax",
+        "SeriesDescription": "Bone, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_304__CT__med_iDose_4__1_63903919293411434900007_4709153576.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903919293411434900007.4709153576422594360",
+      "series_number": "304",
+      "series_description": "med, iDose (4)",
+      "size": [
+        512,
+        512,
+        881
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        0.8
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax",
+        "exclude:abdomen"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT upper Abdomen",
+        "ProtocolName": "02Chest WAISHANG  /Thorax",
+        "SeriesDescription": "med, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "1"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\ct_study\\series_305__CT__Bone_iDose_4__1_63903919293411434900009_4909999020.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63903919293411434900009.4909999020924617417",
+      "series_number": "305",
+      "series_description": "Bone, iDose (4)",
+      "size": [
+        512,
+        512,
+        425
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax",
+        "exclude:abdomen"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT upper Abdomen",
+        "ProtocolName": "02Chest WAISHANG  /Thorax",
+        "SeriesDescription": "Bone, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "1"
+      }
+    }
+  ],
+  "render": {
+    "plane": "axial",
+    "frame_count": 30,
+    "output_size": [
+      512,
+      512
+    ],
+    "sampled_slice_indices": [
+      0,
+      6,
+      11,
+      17,
+      23,
+      28,
+      34,
+      40,
+      45,
+      51,
+      57,
+      62,
+      68,
+      74,
+      79,
+      85,
+      90,
+      96,
+      102,
+      107,
+      113,
+      119,
+      124,
+      130,
+      136,
+      141,
+      147,
+      153,
+      158,
+      164
+    ],
+    "volume_shape": [
+      512,
+      512,
+      165
+    ],
+    "frame_paths": [
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_000.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_001.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_002.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_003.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_004.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_005.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_006.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_007.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_008.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_009.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_010.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_011.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_012.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_013.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_014.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_015.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_016.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_017.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_018.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_019.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_020.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_021.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_022.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_023.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_024.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_025.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_026.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_027.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_028.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\frames\\frame_029.png"
+    ],
+    "report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\report\\report.png",
+    "preview_grid": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\preview_grid.png"
+  },
+  "source": {
+    "gt_pair_sample_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113",
+    "source_report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\手术治疗__李俊涛 1435670 外伤__study1__62008434__20260113\\report\\report.png",
+    "source_case_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\手术治疗\\李俊涛 1435670 外伤"
+  }
+}

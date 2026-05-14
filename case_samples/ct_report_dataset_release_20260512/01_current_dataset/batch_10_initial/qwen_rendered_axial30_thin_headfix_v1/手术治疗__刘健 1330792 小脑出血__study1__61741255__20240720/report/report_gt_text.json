@@ -1,0 +1,22 @@
+{
+  "sample_id": "手术治疗__刘健 1330792 小脑出血__study1__61741255__20240720",
+  "batch_id": "initial_10cases",
+  "variant": "thin",
+  "study_index": "study1",
+  "image_id": "61741255",
+  "study_date": "20240720",
+  "report_method": "颅脑外伤CT轴位",
+  "findings": "双侧小脑半球及小脑蚓部可见团块状高密度影，周围可见窄带样低密度水肿带，邻近脑质肿胀，脑沟变浅。双侧侧脑室后角、第三脑室及第四脑室可见铸型高密度影。右侧额叶、右侧基底节可见小片状高密度影。脑沟内、大脑镰、小脑幕密度增高。双侧侧脑室周围及半卵圆中心白质密度减低，边缘模糊。余脑室系统稍扩张，脑沟、脑裂、脑池增宽。双侧上颌窦内可见类圆形软组织密度影，以宽基底与窦壁相连，边缘光滑。",
+  "impression": [
+    "双侧小脑半球及小脑蚓部出血，破入脑室及蛛网膜下腔",
+    "右侧额叶、右侧基底节小血肿",
+    "脑白质稀疏",
+    "轻度脑萎缩",
+    "双侧上颌窦粘膜囊肿"
+  ],
+  "gt_report_text": "检查所见:\n双侧小脑半球及小脑蚓部可见团块状高密度影，周围可见窄带样低密度水肿带，邻近脑质肿胀，脑沟变浅。双侧侧脑室后角、第三脑室及第四脑室可见铸型高密度影。右侧额叶、右侧基底节可见小片状高密度影。脑沟内、大脑镰、小脑幕密度增高。双侧侧脑室周围及半卵圆中心白质密度减低，边缘模糊。余脑室系统稍扩张，脑沟、脑裂、脑池增宽。双侧上颌窦内可见类圆形软组织密度影，以宽基底与窦壁相连，边缘光滑。\n\n印象:\n1. 双侧小脑半球及小脑蚓部出血，破入脑室及蛛网膜下腔\n2. 右侧额叶、右侧基底节小血肿\n3. 脑白质稀疏\n4. 轻度脑萎缩\n5. 双侧上颌窦粘膜囊肿\n",
+  "source_report_png": "D:\\Multimodel-Intelligence\\case_samples\\ct_report_dataset_release_20260512\\01_current_dataset\\batch_10_initial\\qwen_rendered_axial30_thin_headfix_v1\\手术治疗__刘健 1330792 小脑出血__study1__61741255__20240720\\report\\report.png",
+  "extraction_method": "manual_transcription_from_report_png",
+  "extraction_status": "manual_seed_for_metric_eval",
+  "source_note": "manual transcription from report.png by visual inspection"
+}

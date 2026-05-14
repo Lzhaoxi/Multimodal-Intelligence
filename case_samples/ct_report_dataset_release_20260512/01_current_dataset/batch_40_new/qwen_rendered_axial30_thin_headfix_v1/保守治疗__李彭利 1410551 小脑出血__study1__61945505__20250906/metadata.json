@@ -1,0 +1,361 @@
+﻿{
+  "sample_id": "保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906",
+  "variant": "thin_headfix_v1",
+  "treatment_type": "保守治疗",
+  "case_name": "李彭利 1410551 小脑出血",
+  "patient_name": "李彭利",
+  "image_id": "61945505",
+  "study_date": "20250906",
+  "study_index": "study1",
+  "report_label": "入院CT报告",
+  "window": {
+    "mode": "brain",
+    "center": 37.0,
+    "width": 82.0
+  },
+  "selected_series": {
+    "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\ct_study\\series_202__CT__med_iDose_4__1_63892758890879457800002_5350477789.nii.gz",
+    "series_instance_uid": "1.3.46.670589.33.1.63892758890879457800002.5350477789629384613",
+    "series_number": "202",
+    "series_description": "med, iDose (4)",
+    "size": [
+      512,
+      512,
+      155
+    ],
+    "spacing": [
+      0.48828125,
+      0.48828125,
+      1.0000000000000002
+    ],
+    "kind": "thin",
+    "is_head": true,
+    "head_reasons": [
+      "tag:ct head",
+      "tag:head",
+      "tag:head",
+      "tag:brain"
+    ],
+    "reject_reasons": [],
+    "dicom_tags": {
+      "Modality": "CT",
+      "BodyPartExamined": "BRAIN",
+      "StudyDescription": "CT Head",
+      "ProtocolName": "01 H /Head",
+      "SeriesDescription": "med, iDose (4)",
+      "RequestedProcedureDescription": "",
+      "PerformedProcedureStepDescription": "",
+      "Rows": "512",
+      "Columns": "512",
+      "PixelSpacing": "[0.48828125, 0.48828125]",
+      "SliceThickness": "1"
+    }
+  },
+  "candidate_summaries": [
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\ct_study\\series_201__CT__med_iDose_1__1_63892758890879457800001_4688655304.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63892758890879457800001.4688655304754986757",
+      "series_number": "201",
+      "series_description": "med, iDose (1)",
+      "size": [
+        512,
+        512,
+        31
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        5.000000000000001
+      ],
+      "kind": "thick",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01 H /Head",
+        "SeriesDescription": "med, iDose (1)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\ct_study\\series_202__CT__med_iDose_4__1_63892758890879457800002_5350477789.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63892758890879457800002.5350477789629384613",
+      "series_number": "202",
+      "series_description": "med, iDose (4)",
+      "size": [
+        512,
+        512,
+        155
+      ],
+      "spacing": [
+        0.48828125,
+        0.48828125,
+        1.0000000000000002
+      ],
+      "kind": "thin",
+      "is_head": true,
+      "head_reasons": [
+        "tag:ct head",
+        "tag:head",
+        "tag:head",
+        "tag:brain"
+      ],
+      "reject_reasons": [],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "BRAIN",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01 H /Head",
+        "SeriesDescription": "med, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.48828125, 0.48828125]",
+        "SliceThickness": "1"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\ct_study\\series_300__CT__no_desc__1_63892758924597468100001_4904530153.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63892758924597468100001.4904530153886278702",
+      "series_number": "300",
+      "series_description": "",
+      "size": [
+        512,
+        512,
+        1
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        1.0
+      ],
+      "kind": "scout",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01Chest  /Thorax",
+        "SeriesDescription": "",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "0.625"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\ct_study\\series_401__CT__lung_iDose_3__1_63892759000140857500001_5095252466.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63892759000140857500001.5095252466884733813",
+      "series_number": "401",
+      "series_description": "lung, iDose (3)",
+      "size": [
+        512,
+        512,
+        67
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax",
+        "exclude:lung"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01Chest  /Thorax",
+        "SeriesDescription": "lung, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\ct_study\\series_402__CT__med_iDose_3__1_63892759000140857500003_5751076144.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63892759000140857500003.5751076144284128114",
+      "series_number": "402",
+      "series_description": "med, iDose (3)",
+      "size": [
+        512,
+        512,
+        67
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        5.0
+      ],
+      "kind": "thick",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01Chest  /Thorax",
+        "SeriesDescription": "med, iDose (3)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "5"
+      }
+    },
+    {
+      "nii_path": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\ct_study\\series_403__CT__med_iDose_4__1_63892759000140857500005_4901616027.nii.gz",
+      "series_instance_uid": "1.3.46.670589.33.1.63892759000140857500005.4901616027619884810",
+      "series_number": "403",
+      "series_description": "med, iDose (4)",
+      "size": [
+        512,
+        512,
+        335
+      ],
+      "spacing": [
+        0.703125,
+        0.703125,
+        1.0
+      ],
+      "kind": "thin",
+      "is_head": false,
+      "head_reasons": [],
+      "reject_reasons": [
+        "exclude:chest",
+        "exclude:thorax"
+      ],
+      "dicom_tags": {
+        "Modality": "CT",
+        "BodyPartExamined": "CHEST",
+        "StudyDescription": "CT Head",
+        "ProtocolName": "01Chest  /Thorax",
+        "SeriesDescription": "med, iDose (4)",
+        "RequestedProcedureDescription": "",
+        "PerformedProcedureStepDescription": "",
+        "Rows": "512",
+        "Columns": "512",
+        "PixelSpacing": "[0.703125, 0.703125]",
+        "SliceThickness": "1"
+      }
+    }
+  ],
+  "render": {
+    "plane": "axial",
+    "frame_count": 30,
+    "output_size": [
+      512,
+      512
+    ],
+    "sampled_slice_indices": [
+      0,
+      5,
+      11,
+      16,
+      21,
+      27,
+      32,
+      37,
+      42,
+      48,
+      53,
+      58,
+      64,
+      69,
+      74,
+      80,
+      85,
+      90,
+      96,
+      101,
+      106,
+      112,
+      117,
+      122,
+      127,
+      133,
+      138,
+      143,
+      149,
+      154
+    ],
+    "volume_shape": [
+      512,
+      512,
+      155
+    ],
+    "frame_paths": [
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_000.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_001.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_002.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_003.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_004.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_005.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_006.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_007.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_008.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_009.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_010.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_011.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_012.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_013.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_014.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_015.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_016.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_017.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_018.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_019.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_020.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_021.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_022.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_023.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_024.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_025.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_026.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_027.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_028.png",
+      "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\frames\\frame_029.png"
+    ],
+    "report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\report\\report.png",
+    "preview_grid": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\qwen_rendered_axial30_thin_headfix_v1\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\preview_grid.png"
+  },
+  "source": {
+    "gt_pair_sample_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906",
+    "source_report_png": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\gt_pairs_by_study\\保守治疗__李彭利 1410551 小脑出血__study1__61945505__20250906\\report\\report.png",
+    "source_case_dir": "D:\\Multimodel-Intelligence\\case_samples\\新数据2026_05_10\\processed_40cases\\保守治疗\\李彭利 1410551 小脑出血"
+  }
+}
